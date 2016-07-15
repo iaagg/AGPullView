@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AGPullView_Example' do
+  pod 'AGPullView', :path => '../'
+
+  target 'AGPullView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
