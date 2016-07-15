@@ -1,0 +1,14 @@
+PODS:
+  - AGPullView (0.1.0)
+
+DEPENDENCIES:
+  - AGPullView (from `../`)
+
+EXTERNAL SOURCES:
+  AGPullView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AGPullView: c1ef1dec5e979805ca5bd1737440b68328a62131
+
+COCOAPODS: 0.39.0

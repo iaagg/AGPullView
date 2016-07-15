@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AGPullView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AGPullView.'
+  s.summary          = 'Container view for pulling it from bottom of its superview.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This view could be container for any of yur content. I look forward to you suggestions and ideas for full customization.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/AGPullView'
+  s.homepage         = 'https://github.com/iaagg/AGPullView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Aleksey Getman' => 'getmanag@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/AGPullView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/iaagg/AGPullView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

@@ -4,7 +4,7 @@ target 'AGPullView_Example' do
   pod 'AGPullView', :path => '../'
 
   target 'AGPullView_Tests' do
-    inherit! :search_paths
+    pod 'AGPullView', :path => '../'
 
     
   end
