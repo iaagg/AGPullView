@@ -12,6 +12,8 @@
 
 @interface AGViewController () <AGConfigurerDelegate, UITableViewDataSource>
 
+@property (nonatomic, strong) AGPullViewConfigurer *configurer;
+
 @end
 
 @implementation AGViewController
@@ -21,15 +23,15 @@
     [super viewDidLoad];
     
     //AGPullView configuration
-    AGPullViewConfigurer *configurer = [AGPullViewConfigurer configurer];
-    [configurer setupPullViewForSuperview:self.view colorScheme:ColorSchemeTypeGrayTransparent];
-    configurer.percentOfFilling = @85;
-    configurer.delegate = self;
-    configurer.needBounceEffect = true;
-    configurer.animationDuration = @0.3;
-    configurer.enableShowingWithTouch = true;
-    configurer.enableHidingWithTouch = true;
-    [configurer enableBlurEffectWithBlurStyle:UIBlurEffectStyleLight];
+    self.configurer = [AGPullViewConfigurer new];
+    [self.configurer setupPullViewForSuperview:self.view colorScheme:ColorSchemeTypeGrayTransparent];
+    self.configurer.percentOfFilling = @85;
+    self.configurer.delegate = self;
+    self.configurer.needBounceEffect = true;
+    self.configurer.animationDuration = @0.3;
+    self.configurer.enableShowingWithTouch = true;
+    self.configurer.enableHidingWithTouch = true;
+    [self.configurer enableBlurEffectWithBlurStyle:UIBlurEffectStyleLight];
     
     //Test UITableView
     UITableView *table = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, 300, 300) style:UITableViewStyleGrouped];
@@ -38,7 +40,7 @@
     table.backgroundColor = [UIColor clearColor];
     
     //Filling whole AGPullView with test UITableView
-    [configurer fullfillContentViewWithView:table];
+    [self.configurer fullfillContentViewWithView:table];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -54,15 +56,15 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [[AGPullViewConfigurer configurer] handleTouchesBegan:touches];
+    [self.configurer handleTouchesBegan:touches];
 }
 
 - (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [[AGPullViewConfigurer configurer] handleTouchesMoved:touches];
+    [self.configurer handleTouchesMoved:touches];
 }
 
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [[AGPullViewConfigurer configurer] handleTouchesEnded:touches];
+    [self.configurer handleTouchesEnded:touches];
 }
 
 - (void)didDragPullView:(AGPullView *)pullView withOpeningPercent:(float)openingPercent {

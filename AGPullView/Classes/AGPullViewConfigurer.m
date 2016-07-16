@@ -68,40 +68,22 @@ static NSString *const AGDirectInitExeptionMessage = @"You shold use \"configure
 }
 
 - (instancetype)init {
-    BOOL directInitEnabled = [[NSUserDefaults standardUserDefaults] boolForKey:AGDirectInitEnabledFlag];
-    
-    if (directInitEnabled) {
-        self = [super init];
-        return self;
-    } else {
-        @throw [NSException exceptionWithName:NSInternalInconsistencyException reason:AGDirectInitExeptionMessage userInfo:nil];
+    if (self = [super init]) {
+        [self addObserver:self forKeyPath:SHOWING_WITH_TOUCH options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
+        self.enableShowingWithTouch = true;
+        
+        [self addObserver:self forKeyPath:HIDING_WITH_TOUCH options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
+        self.enableHidingWithTouch = true;
+        
+        [self addObserver:self forKeyPath:COLOR_SCHEME_TYPE options:NSKeyValueObservingOptionNew context:nil];
+        self.colorSchemeType = ColorSchemeTypeWhite;
+        
+        [self addObserver:self forKeyPath:BLUR_EFFECT options:NSKeyValueObservingOptionNew context:nil];
+        
+        self.needBounceEffect = false;
     }
-}
-
-+ (instancetype)configurer {
-    static AGPullViewConfigurer *instance;
-    static dispatch_once_t onceToken;
     
-    dispatch_once(&onceToken, ^{
-        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:AGDirectInitEnabledFlag];
-        instance = [[super alloc] init];
-        [[NSUserDefaults standardUserDefaults] setBool:NO forKey:AGDirectInitEnabledFlag];
-        
-        [instance addObserver:instance forKeyPath:SHOWING_WITH_TOUCH options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
-        instance.enableShowingWithTouch = true;
-        
-        [instance addObserver:instance forKeyPath:HIDING_WITH_TOUCH options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
-        instance.enableHidingWithTouch = true;
-        
-        [instance addObserver:instance forKeyPath:COLOR_SCHEME_TYPE options:NSKeyValueObservingOptionNew context:nil];
-        instance.colorSchemeType = ColorSchemeTypeGrayTransparent;
-        
-        [instance addObserver:instance forKeyPath:BLUR_EFFECT options:NSKeyValueObservingOptionNew context:nil];
-        
-        instance.needBounceEffect = false;
-    });
-    
-    return instance;
+        return self;
 }
 
 - (void)dealloc {

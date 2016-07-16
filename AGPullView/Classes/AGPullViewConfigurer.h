@@ -59,12 +59,6 @@
 @property (strong, nonatomic) NSNumber                                       *percentOfFilling;
 
 /*!
- * @brief Use this configurer to setup your pull view
- * @warning Do not use your own instances of AGDragableViewConfigurer class
- */
-+ (instancetype)configurer;
-
-/*!
  * @brief Call to add pull view to your view as subview
  * @param superview An UIView to which you want to add pull view as subview
  * @warning your view's height should be at least 100pt
