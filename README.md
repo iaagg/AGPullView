@@ -22,6 +22,13 @@ it, simply add the following line to your Podfile:
 pod "AGPullView"
 ```
 
+#Demo
+
+Short demo of AGPullView performance.
+
+
+![Demo](https://s32.postimg.org/vgslyjjed/AGPull_View_demo.gif)
+
 #Usage
 
 First, import AGPullViewConfigurer
