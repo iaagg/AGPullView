@@ -22,7 +22,7 @@ class AGViewControllerSwift: UIViewController, AGConfigurerDelegate, UITableView
         self.configurer.needBounceEffect = true
         self.configurer.animationDuration = 0.3
         self.configurer.enableShowingWithTouch = true;
-        self.configurer.enableHidingWithTouch = true;
+        self.configurer.enableHidingWithTouch = false;
         self.configurer.enableBlurEffect(withBlurStyle: .dark)
         
         //Test UITableView
@@ -42,7 +42,7 @@ class AGViewControllerSwift: UIViewController, AGConfigurerDelegate, UITableView
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
         cell.backgroundColor = UIColor.clear
-        cell.textLabel?.textColor = UIColor.white
+        cell.textLabel?.textColor = UIColor.red
         cell.textLabel?.text = "Test"
         return cell;
     }
@@ -80,6 +80,14 @@ class AGViewControllerSwift: UIViewController, AGConfigurerDelegate, UITableView
     
     @IBAction func backToObjCController(_ sender: AnyObject) {
         self.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func changeAppearenceToRandom(_ sender: AnyObject) {
+        let randomBlur = arc4random_uniform(2)
+        self.configurer.blurStyle = UIBlurEffectStyle(rawValue: Int(randomBlur))!
+        
+        let randomColorScheme = arc4random_uniform(6)
+        self.configurer.colorSchemeType = PullViewColorSchemeType(rawValue: randomColorScheme)
     }
     
 

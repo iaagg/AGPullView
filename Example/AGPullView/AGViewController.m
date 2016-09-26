@@ -29,7 +29,7 @@
     self.configurer.needBounceEffect = true;
     self.configurer.animationDuration = @0.3;
     self.configurer.enableShowingWithTouch = true;
-    self.configurer.enableHidingWithTouch = true;
+    self.configurer.enableHidingWithTouch = false;
     [self.configurer enableBlurEffectWithBlurStyle:UIBlurEffectStyleLight];
     
     //Test UITableView
@@ -49,6 +49,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [[UITableViewCell alloc] init];
     cell.backgroundColor = [UIColor clearColor];
+    cell.textLabel.textColor = [UIColor redColor];
     cell.textLabel.text = @"Test";
     
     return cell;
@@ -90,6 +91,14 @@
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"SwiftExample" bundle:[NSBundle mainBundle]];
     UIViewController *swiftVC = [storyBoard instantiateViewControllerWithIdentifier:@"exampleSwiftVC"];
     [self presentViewController:swiftVC animated:YES completion:nil];
+}
+
+- (IBAction)changeAppearenceToRandom:(id)sender {
+    NSInteger randomBlur = arc4random_uniform(2);
+    self.configurer.blurStyle = randomBlur;
+    
+    NSInteger randomColorScheme = arc4random_uniform(6);
+    self.configurer.colorSchemeType = randomColorScheme;
 }
 
 @end

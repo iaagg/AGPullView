@@ -43,10 +43,22 @@
                         <action selector="openSwiftController:" destination="-1" eventType="touchUpInside" id="phE-gK-vKB"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xDZ-fy-zAr">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="152" id="ohU-ev-QNW"/>
+                        <constraint firstAttribute="height" constant="30" id="uLG-lv-axI"/>
+                    </constraints>
+                    <state key="normal" title="Random appearence"/>
+                    <connections>
+                        <action selector="changeAppearenceToRandom:" destination="-1" eventType="touchUpInside" id="JOu-ps-3K9"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="0.47058823529999999" green="0.56470588239999997" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="xDZ-fy-zAr" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="55d-yM-fYX"/>
                 <constraint firstItem="XF7-4g-5Dc" firstAttribute="top" secondItem="AZK-lx-uWD" secondAttribute="bottom" constant="8" id="Cx9-zK-pBZ"/>
+                <constraint firstItem="xDZ-fy-zAr" firstAttribute="top" secondItem="gxb-xj-mJz" secondAttribute="bottom" constant="8" id="MZz-YB-goh"/>
                 <constraint firstAttribute="bottom" secondItem="XF7-4g-5Dc" secondAttribute="bottom" constant="27" id="Sh0-Z9-DoH"/>
                 <constraint firstItem="XF7-4g-5Dc" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="cGE-nO-Yf3"/>
                 <constraint firstItem="gxb-xj-mJz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="ceX-DP-TN6"/>

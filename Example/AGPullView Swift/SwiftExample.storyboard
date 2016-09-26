@@ -45,11 +45,23 @@
                                     <action selector="backToObjCController:" destination="I3c-Cl-eAe" eventType="touchUpInside" id="kcp-5d-Eeq"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W0u-L7-tXU">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ual-6i-ioc"/>
+                                    <constraint firstAttribute="width" constant="159" id="vWj-1G-sca"/>
+                                </constraints>
+                                <state key="normal" title="Random appearence"/>
+                                <connections>
+                                    <action selector="changeAppearenceToRandom:" destination="I3c-Cl-eAe" eventType="touchUpInside" id="U99-Fl-UUo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.47058823529999999" green="0.56470588239999997" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="353-U9-ln0" firstAttribute="top" secondItem="p2v-jP-aVG" secondAttribute="bottom" constant="8" id="0TA-hz-lB5"/>
+                            <constraint firstItem="W0u-L7-tXU" firstAttribute="centerX" secondItem="JGA-Yi-h6j" secondAttribute="centerX" id="5Yt-u0-4Xi"/>
                             <constraint firstItem="aMf-sx-O4E" firstAttribute="top" secondItem="SOU-LA-W7n" secondAttribute="bottom" id="Duo-fd-WKB"/>
+                            <constraint firstItem="W0u-L7-tXU" firstAttribute="top" secondItem="aMf-sx-O4E" secondAttribute="bottom" constant="8" id="H4o-ZW-3lw"/>
                             <constraint firstItem="R6B-gu-mLF" firstAttribute="top" secondItem="353-U9-ln0" secondAttribute="bottom" constant="20" id="YBa-lV-1PJ"/>
                             <constraint firstItem="353-U9-ln0" firstAttribute="centerX" secondItem="JGA-Yi-h6j" secondAttribute="centerX" id="amX-gg-b5z"/>
                             <constraint firstItem="p2v-jP-aVG" firstAttribute="centerX" secondItem="JGA-Yi-h6j" secondAttribute="centerX" id="bri-vJ-Qtr"/>

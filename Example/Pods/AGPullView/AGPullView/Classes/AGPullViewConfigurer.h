@@ -99,6 +99,7 @@
 
 /*!
  * @brief Call in touchesEnded method of superview to have an ability to drag pull view
+ * @warning Do not call this method if you don't want AGPullView to be automatically hidden/showed with animation when user will stop draging
  * @param touches Touches recieved in your view's touchesEnded method
  */
 - (void)handleTouchesEnded:(NSSet<UITouch *> *)touches;
