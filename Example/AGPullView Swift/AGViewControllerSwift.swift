@@ -35,6 +35,12 @@ class AGViewControllerSwift: UIViewController, AGConfigurerDelegate, UITableView
         self.configurer.fullfillContentView(with: table)
     }
     
+    //For correct working of layout in early versions of iOS 10
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        self.configurer.layoutPullView()
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 5
     }

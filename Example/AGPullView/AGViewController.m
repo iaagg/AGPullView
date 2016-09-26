@@ -42,6 +42,12 @@
     [self.configurer fullfillContentViewWithView:table];
 }
 
+//For correct working of layout in early versions of iOS 10
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+    [self.configurer layoutPullView];
+}
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return 5;
 }

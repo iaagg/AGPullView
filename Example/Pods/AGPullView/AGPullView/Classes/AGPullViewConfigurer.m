@@ -27,6 +27,9 @@
 #define DARK_GRAY_COLOR             [UIColor colorWithRed:43./255. green:43./255. blue:43./255. alpha:1.0]
 #define DARK_TRANSPARENT_GRAY_COLOR [UIColor colorWithRed:43./255. green:43./255. blue:43./255. alpha:0.5]
 
+//iOS version checking
+#define IOS_8PLUS ([[UIDevice currentDevice].systemVersion intValue] >= 8)
+
 //Observed values
 #define SHOWING_WITH_TOUCH @"enableShowingWithTouch"
 #define HIDING_WITH_TOUCH  @"enableHidingWithTouch"
@@ -269,6 +272,7 @@ static NSString *const AGDirectInitExeptionMessage = @"You shold use \"configure
     [self p_switchColorSchemeType:self.colorSchemeType];
     
     [self.pullView layoutIfNeeded];
+    [self.pullView layoutSubviews];
 }
 
 - (void)p_setupTouchButtons {
@@ -343,7 +347,8 @@ static NSString *const AGDirectInitExeptionMessage = @"You shold use \"configure
 }
 
 - (void)p_setupBlurEffect {
-    if (!UIAccessibilityIsReduceTransparencyEnabled()) {
+    if (!UIAccessibilityIsReduceTransparencyEnabled() &&
+        IOS_8PLUS) {
         
         UIBlurEffect *blurEffect = [UIBlurEffect effectWithStyle:self.blurStyle];
         
@@ -391,24 +396,28 @@ static NSString *const AGDirectInitExeptionMessage = @"You shold use \"configure
 }
 
 - (void)p_turnOnBlurEffect {
-    
-    if (self.blurEffectView) {
-        self.blurEffectView.hidden = false;
+    if (IOS_8PLUS) {
+        if (self.blurEffectView) {
+            self.blurEffectView.hidden = false;
+        }
     }
 }
 
 - (void)p_turnOffBlurEffect {
-    
-    if (self.blurEffectView) {
-        self.blurEffectView.hidden = true;
+    if (IOS_8PLUS) {
+        if (self.blurEffectView) {
+            self.blurEffectView.hidden = true;
+        }
     }
 }
 
 - (void)p_changeBlurEffect {
-    UIBlurEffect *blurEffect = [UIBlurEffect effectWithStyle:self.blurStyle];
-    
-    if (self.blurEffectView) {
-        self.blurEffectView.effect = blurEffect;
+    if (IOS_8PLUS) {
+        UIBlurEffect *blurEffect = [UIBlurEffect effectWithStyle:self.blurStyle];
+        
+        if (self.blurEffectView) {
+            self.blurEffectView.effect = blurEffect;
+        }
     }
 }
 
@@ -677,6 +686,11 @@ static NSString *const AGDirectInitExeptionMessage = @"You shold use \"configure
     CGFloat currentChange = height - MINIMUM_HEIGHT;
     float percent = currentChange / possibleRange;
     return percent;
+}
+
+- (void)layoutPullView {
+    [self.pullView layoutIfNeeded];
+    [self.pullView layoutSubviews];
 }
 
 @end
