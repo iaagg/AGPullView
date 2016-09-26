@@ -11,7 +11,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-iOS 7.1 +
+iOS 8.0 +
 
 ## Installation
 
@@ -129,7 +129,7 @@ There is also a convenient method for filling whole content view with your conte
 self.configurer.fullfillContentView(with: table)
 ```
 
-(iOS 8.0 +) You can turn on/off blur effect like so: 
+You can turn on/off blur effect like so: 
 
 ON
 
@@ -189,7 +189,7 @@ self.configurer.blurStyle
 self.configurer.colorSchemeType
 ```
 And here is a demo of random changing properties 'blurStyle' and 'colorSchemeType'
-![Demo](https://media.giphy.com/media/Ewka7S3RQEUsU/giphy.gif)
+![Demo](https://media.giphy.com/media/2AmsmlYktMzFS/giphy.gif)
 
 ## Author
 
