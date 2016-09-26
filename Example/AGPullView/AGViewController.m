@@ -8,7 +8,6 @@
 
 #import "AGViewController.h"
 #import "AGPullViewConfigurer.h"
-#import "AGConfigurerDelegate.h"
 
 @interface AGViewController () <AGConfigurerDelegate, UITableViewDataSource>
 
@@ -85,6 +84,12 @@
 
 - (void)didTouchToHidePullView:(AGPullView *)pullView {
     NSLog(@"touched to hide");
+}
+
+- (IBAction)openSwiftController:(id)sender {
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"SwiftExample" bundle:[NSBundle mainBundle]];
+    UIViewController *swiftVC = [storyBoard instantiateViewControllerWithIdentifier:@"exampleSwiftVC"];
+    [self presentViewController:swiftVC animated:YES completion:nil];
 }
 
 @end

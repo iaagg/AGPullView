@@ -1,1807 +1,718 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>060E8351994EBBE2822B6F6FEFFE847C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>AGPullView.framework</string>
-			<key>path</key>
-			<string>AGPullView.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>0B5CB703850B3ECDECD8941151AA697D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>880067610CCEF055A55EE2AD53CB38EB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>0CF80F8EA71E8E178ABF95B30832C9D3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AGPullMarginView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0EA75BED88719F7A9724E040C6C1E7A6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AGListViewAnimationButton.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10DE1947DAC0ED28F6C0A9F9BD75D546</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>10F9ED21C3B4BB3940D3958CE2A06EF3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-AGPullView_Example-AGPullView_Tests-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>163E1A88628695BEF7232297DA7091D6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7658D9DB9F5AC5DDF85F78BD7DDCDA37</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>175CD73F187AC118A3D92AAD9B326B8D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AGSettingsEnums.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1840D24B40310E075E4917FB664F0C3F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-AGPullView_Example-AGPullView_Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>18913C37BD0E613BC320CDFF7EDBD28D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AGPullMarginView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1A9D30170E7B830DF0C1F65FC1E0A811</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-AGPullView_Example-AGPullView_Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1B29AD1DA350EC1A4DC07AB5622D0F02</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-AGPullView_Example-AGPullView_Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1B873DE919C670DE9A77CFE61CA30A2D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1D691AE12AEF18099E075CDA079457C8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AGPullView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>22196989D359F9516A690F6751E5B8DB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AGListViewAnimationButton.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>25F00BA0DF7784F4B298D345C86F731E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CE75438355A1F73EF55A6083CE32B9E3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>260B0AE77F76695A5B2DFAABC873310C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8BC56169B75E83DB79098FAF8FC11E50</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/AGPullView/AGPullView-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/AGPullView/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/AGPullView/AGPullView.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>AGPullView</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>2928B47C2E4C303D85E2CD1CDA85A5C4</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>39ED6AAFF6B82D8BE8F6B85B07192913</string>
-				<string>F311A268F773E125CB1E699DE9D17D7B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>29BE87CFA3C7C1DC91C7C5F82502E9C3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2D796AB748E9BE3651949D461B4BB80D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>AGPullView</string>
-			<key>path</key>
-			<string>AGPullView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D796AB748E9BE3651949D461B4BB80D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CE75438355A1F73EF55A6083CE32B9E3</string>
-				<string>0EA75BED88719F7A9724E040C6C1E7A6</string>
-				<string>22196989D359F9516A690F6751E5B8DB</string>
-				<string>0CF80F8EA71E8E178ABF95B30832C9D3</string>
-				<string>18913C37BD0E613BC320CDFF7EDBD28D</string>
-				<string>1D691AE12AEF18099E075CDA079457C8</string>
-				<string>F55BC5DFDCC4165F1C3217C435BA0032</string>
-				<string>880067610CCEF055A55EE2AD53CB38EB</string>
-				<string>7658D9DB9F5AC5DDF85F78BD7DDCDA37</string>
-				<string>175CD73F187AC118A3D92AAD9B326B8D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>552D02D5BA751AC2E8790D2811D496CA</string>
-				<string>10DE1947DAC0ED28F6C0A9F9BD75D546</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2EC58D5F005224C65873790C85B38453</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>AGPullView</string>
-			<key>target</key>
-			<string>48A89F045630C77BCA29E3FB09DAF185</string>
-			<key>targetProxy</key>
-			<string>631ABC8548E217A43B00F95C64584322</string>
-		</dict>
-		<key>33C9A5A6E05553694F7C4B52731CE82E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B8370DC197AB0CDB50F139EF3B9C716A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3419717EF8B0C82D1125AEFD218AE2BB</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8BC56169B75E83DB79098FAF8FC11E50</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/AGPullView/AGPullView-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/AGPullView/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/AGPullView/AGPullView.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>AGPullView</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>36CF8F025FCDD6962BF6A3E664844E4A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9EF5889A63EF9C277058D55A5EBA8ED0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>39ED6AAFF6B82D8BE8F6B85B07192913</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>AAEAD4EAF3E1C916E91F5E770F43BFBF</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-AGPullView_Example-AGPullView_Tests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-AGPullView_Example-AGPullView_Tests/Pods-AGPullView_Example-AGPullView_Tests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_AGPullView_Example_AGPullView_Tests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3B2ECDA52E9EE0719292295DC5CC7C86</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_AGPullView_Example.framework</string>
-			<key>path</key>
-			<string>Pods_AGPullView_Example.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>3BFCE8ACE48A18E3FCC3035932C74035</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>78E2C18657FDC2097241CF326959EA25</string>
-				<string>96403D166AFF58BEB1D28A48308CD972</string>
-				<string>5BEA104930DFA21B495F3AC2793C76CF</string>
-				<string>A7052DBD2BE70B2C95EC23106E441F61</string>
-				<string>163E1A88628695BEF7232297DA7091D6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3E4E89230EF59BC255123B67864ACF77</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>405545906895290EE680734ED83564B6</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>2928B47C2E4C303D85E2CD1CDA85A5C4</string>
-			<key>buildPhases</key>
-			<array>
-				<string>5BDCD85A03CE0E32EE109CC44581D7B8</string>
-				<string>954375F56848D02781AFC9AAECC77AFB</string>
-				<string>4635E04ABFE0CA67AC822A2AD432024A</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>2EC58D5F005224C65873790C85B38453</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-AGPullView_Example-AGPullView_Tests</string>
-			<key>productName</key>
-			<string>Pods-AGPullView_Example-AGPullView_Tests</string>
-			<key>productReference</key>
-			<string>BCA362E6CBB317267E42E78F805C8988</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>429476E787BDF5ECE7D63FA687947C3D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-AGPullView_Example-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>43D618AC77B33B8A0B0E0F6B12989E1C</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>CE19060A98AA37D64106E0470DC4652A</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E897FF96B2A3B96B0C578758A99EC5DB</string>
-				<string>36CF8F025FCDD6962BF6A3E664844E4A</string>
-				<string>B51410EAB503B1A715DC5B12052AA083</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>B3A904BDDD82B7E37E24C20CF867F95F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-AGPullView_Example</string>
-			<key>productName</key>
-			<string>Pods-AGPullView_Example</string>
-			<key>productReference</key>
-			<string>3B2ECDA52E9EE0719292295DC5CC7C86</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>44093E2C6F6A3B191C71C5C566F8A6DB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D0B7E2EAE1ABE3B5A4A490A5C27187B2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4635E04ABFE0CA67AC822A2AD432024A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>AA465C87791536213290EB5EC78A5317</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>479AEAD83C4148A2010B6EF41954E21B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-AGPullView_Example-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>48A89F045630C77BCA29E3FB09DAF185</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>896FAE7806D9DA00F43E0A7E1412A0ED</string>
-			<key>buildPhases</key>
-			<array>
-				<string>3BFCE8ACE48A18E3FCC3035932C74035</string>
-				<string>646CB5B5DECF7C596AD3F338782A70E3</string>
-				<string>E53B1610E4A54FBC4CD16DBA8661D0D1</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>AGPullView</string>
-			<key>productName</key>
-			<string>AGPullView</string>
-			<key>productReference</key>
-			<string>060E8351994EBBE2822B6F6FEFFE847C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>48E7C195D73D3B879BA43A7FC5FF4499</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>060E8351994EBBE2822B6F6FEFFE847C</string>
-				<string>3B2ECDA52E9EE0719292295DC5CC7C86</string>
-				<string>BCA362E6CBB317267E42E78F805C8988</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DA4CE524C5BC910F114FCADB21FE8A3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-AGPullView_Example.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4FE063F6DF6C7F8638B6F26401718F05</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-AGPullView_Example-AGPullView_Tests-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>552D02D5BA751AC2E8790D2811D496CA</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>580055086BB5CE877EF9071A468269A1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-AGPullView_Example-AGPullView_Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>594F69E08409786F3A184A21D6675C37</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-AGPullView_Example-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5AC8564E54F07B68527983133009340F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5BDCD85A03CE0E32EE109CC44581D7B8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>91293CFD5F7E7032F7E37BB6D4D893F4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5BEA104930DFA21B495F3AC2793C76CF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A8B4626033A2D0E3D869ADD7DEAECDB5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5CA0BBEAF3B05AA6638A1875E00A60F6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C75251AFAEF2D4CF7CC9FB1E04AC5110</string>
-				<string>86D3C8F75F75BA365EE295EAD00D7B71</string>
-				<string>1840D24B40310E075E4917FB664F0C3F</string>
-				<string>580055086BB5CE877EF9071A468269A1</string>
-				<string>1A9D30170E7B830DF0C1F65FC1E0A811</string>
-				<string>4FE063F6DF6C7F8638B6F26401718F05</string>
-				<string>1B29AD1DA350EC1A4DC07AB5622D0F02</string>
-				<string>10F9ED21C3B4BB3940D3958CE2A06EF3</string>
-				<string>AAEAD4EAF3E1C916E91F5E770F43BFBF</string>
-				<string>DCA63F3C8A1E03E5CA26A9ECCD18BDAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-AGPullView_Example-AGPullView_Tests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-AGPullView_Example-AGPullView_Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>631ABC8548E217A43B00F95C64584322</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>48A89F045630C77BCA29E3FB09DAF185</string>
-			<key>remoteInfo</key>
-			<string>AGPullView</string>
-		</dict>
-		<key>646CB5B5DECF7C596AD3F338782A70E3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>92E47570B5EF6EEA587C66D97999088F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>6E706A62742E1C151155835B7E8FA102</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F1D3272DC0820D43BCE7153044C86745</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>7658D9DB9F5AC5DDF85F78BD7DDCDA37</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AGPullViewConfigurer.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>78E2C18657FDC2097241CF326959EA25</key>
-		<dict>
-			<key>fileRef</key>
-			<string>22196989D359F9516A690F6751E5B8DB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>85BDD2AE90E8D64AFC27105FB6EBC6F8</string>
-				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>48E7C195D73D3B879BA43A7FC5FF4499</string>
-				<string>85F5703BDF52A6A2634BFF5A6EC20ACA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>85BDD2AE90E8D64AFC27105FB6EBC6F8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>879E44881797F43177A75D7CB0D2E130</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>85F5703BDF52A6A2634BFF5A6EC20ACA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BEA71A9354AD8B5D821F9618DB78803C</string>
-				<string>5CA0BBEAF3B05AA6638A1875E00A60F6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86D3C8F75F75BA365EE295EAD00D7B71</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-AGPullView_Example-AGPullView_Tests.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>879E44881797F43177A75D7CB0D2E130</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>29BE87CFA3C7C1DC91C7C5F82502E9C3</string>
-				<string>DD3F810196D05CE932708D0680055A00</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>AGPullView</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>880067610CCEF055A55EE2AD53CB38EB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AGPullViewConfigurer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>896FAE7806D9DA00F43E0A7E1412A0ED</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3419717EF8B0C82D1125AEFD218AE2BB</string>
-				<string>260B0AE77F76695A5B2DFAABC873310C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8BC56169B75E83DB79098FAF8FC11E50</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>AGPullView.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>91293CFD5F7E7032F7E37BB6D4D893F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1A9D30170E7B830DF0C1F65FC1E0A811</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>92E47570B5EF6EEA587C66D97999088F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>940EDB148830712937EA8AAF7479A902</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-AGPullView_Example-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>943AFCE3AD625AB819952C6D9D370045</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4DA4CE524C5BC910F114FCADB21FE8A3</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-AGPullView_Example/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-AGPullView_Example/Pods-AGPullView_Example.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_AGPullView_Example</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>954375F56848D02781AFC9AAECC77AFB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1B873DE919C670DE9A77CFE61CA30A2D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>96403D166AFF58BEB1D28A48308CD972</key>
-		<dict>
-			<key>fileRef</key>
-			<string>18913C37BD0E613BC320CDFF7EDBD28D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9C3C310D99178F10E06030550E5F595D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1D691AE12AEF18099E075CDA079457C8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>9E99408ED58B5D91B13167F624ABC926</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AGPullView-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9EF5889A63EF9C277058D55A5EBA8ED0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A7052DBD2BE70B2C95EC23106E441F61</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F55BC5DFDCC4165F1C3217C435BA0032</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A8B4626033A2D0E3D869ADD7DEAECDB5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AGPullView-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AA465C87791536213290EB5EC78A5317</key>
-		<dict>
-			<key>fileRef</key>
-			<string>10F9ED21C3B4BB3940D3958CE2A06EF3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>AAEAD4EAF3E1C916E91F5E770F43BFBF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-AGPullView_Example-AGPullView_Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF73AF680AB9E80358D7816437C5D712</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-AGPullView_Example.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B3A904BDDD82B7E37E24C20CF867F95F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>AGPullView</string>
-			<key>target</key>
-			<string>48A89F045630C77BCA29E3FB09DAF185</string>
-			<key>targetProxy</key>
-			<string>FC38776446D28E01267A39860B8BD7A0</string>
-		</dict>
-		<key>B51410EAB503B1A715DC5B12052AA083</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>33C9A5A6E05553694F7C4B52731CE82E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B62FBC1271A61E4C7D74B5FBC6213E50</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C5449D37805C92F32E01F55FC56C3FB9</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-AGPullView_Example/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-AGPullView_Example/Pods-AGPullView_Example.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_AGPullView_Example</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>B8370DC197AB0CDB50F139EF3B9C716A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-AGPullView_Example-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BF6342C8B29F4CEEA088EFF7AB4DE362</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BCA362E6CBB317267E42E78F805C8988</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_AGPullView_Example_AGPullView_Tests.framework</string>
-			<key>path</key>
-			<string>Pods_AGPullView_Example_AGPullView_Tests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>BEA71A9354AD8B5D821F9618DB78803C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F404E43C62F742923191C02A9D20C2A9</string>
-				<string>AF73AF680AB9E80358D7816437C5D712</string>
-				<string>594F69E08409786F3A184A21D6675C37</string>
-				<string>940EDB148830712937EA8AAF7479A902</string>
-				<string>D0B7E2EAE1ABE3B5A4A490A5C27187B2</string>
-				<string>429476E787BDF5ECE7D63FA687947C3D</string>
-				<string>479AEAD83C4148A2010B6EF41954E21B</string>
-				<string>B8370DC197AB0CDB50F139EF3B9C716A</string>
-				<string>C5449D37805C92F32E01F55FC56C3FB9</string>
-				<string>4DA4CE524C5BC910F114FCADB21FE8A3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-AGPullView_Example</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-AGPullView_Example</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3E4E89230EF59BC255123B67864ACF77</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C5449D37805C92F32E01F55FC56C3FB9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-AGPullView_Example.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C75251AFAEF2D4CF7CC9FB1E04AC5110</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CBDC9691B3DA0DF184272E84721C5260</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0CF80F8EA71E8E178ABF95B30832C9D3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>CE19060A98AA37D64106E0470DC4652A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>B62FBC1271A61E4C7D74B5FBC6213E50</string>
-				<string>943AFCE3AD625AB819952C6D9D370045</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>CE75438355A1F73EF55A6083CE32B9E3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AGConfigurerDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D0B7E2EAE1ABE3B5A4A490A5C27187B2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-AGPullView_Example-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0700</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>48E7C195D73D3B879BA43A7FC5FF4499</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>48A89F045630C77BCA29E3FB09DAF185</string>
-				<string>43D618AC77B33B8A0B0E0F6B12989E1C</string>
-				<string>405545906895290EE680734ED83564B6</string>
-			</array>
-		</dict>
-		<key>DCA63F3C8A1E03E5CA26A9ECCD18BDAC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-AGPullView_Example-AGPullView_Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD3F810196D05CE932708D0680055A00</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DD8096E12900D471F449A7FF2CABFF34</string>
-				<string>8BC56169B75E83DB79098FAF8FC11E50</string>
-				<string>A8B4626033A2D0E3D869ADD7DEAECDB5</string>
-				<string>9E99408ED58B5D91B13167F624ABC926</string>
-				<string>F1D3272DC0820D43BCE7153044C86745</string>
-				<string>5AC8564E54F07B68527983133009340F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/AGPullView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD8096E12900D471F449A7FF2CABFF34</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>AGPullView.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E53B1610E4A54FBC4CD16DBA8661D0D1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>25F00BA0DF7784F4B298D345C86F731E</string>
-				<string>FF0177B9E96479B9B7BD2C62A45AAD1B</string>
-				<string>CBDC9691B3DA0DF184272E84721C5260</string>
-				<string>6E706A62742E1C151155835B7E8FA102</string>
-				<string>9C3C310D99178F10E06030550E5F595D</string>
-				<string>0B5CB703850B3ECDECD8941151AA697D</string>
-				<string>FAD6556F06299FAB85212541069EB080</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E897FF96B2A3B96B0C578758A99EC5DB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>44093E2C6F6A3B191C71C5C566F8A6DB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F1D3272DC0820D43BCE7153044C86745</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AGPullView-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F311A268F773E125CB1E699DE9D17D7B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>DCA63F3C8A1E03E5CA26A9ECCD18BDAC</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-AGPullView_Example-AGPullView_Tests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-AGPullView_Example-AGPullView_Tests/Pods-AGPullView_Example-AGPullView_Tests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_AGPullView_Example_AGPullView_Tests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>F404E43C62F742923191C02A9D20C2A9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F55BC5DFDCC4165F1C3217C435BA0032</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AGPullView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAD6556F06299FAB85212541069EB080</key>
-		<dict>
-			<key>fileRef</key>
-			<string>175CD73F187AC118A3D92AAD9B326B8D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>FC38776446D28E01267A39860B8BD7A0</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>48A89F045630C77BCA29E3FB09DAF185</string>
-			<key>remoteInfo</key>
-			<string>AGPullView</string>
-		</dict>
-		<key>FF0177B9E96479B9B7BD2C62A45AAD1B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0EA75BED88719F7A9724E040C6C1E7A6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09F8EB8715B3F4AC5607E112C799D320 /* Pods-AGPullView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8370DC197AB0CDB50F139EF3B9C716A /* Pods-AGPullView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		104CCBF533083FD686D4B434BAA472A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		125FCA7FE826D8AB510D837474D3AFB4 /* Pods-AGPullView_Example-AGPullView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9D30170E7B830DF0C1F65FC1E0A811 /* Pods-AGPullView_Example-AGPullView_Tests-dummy.m */; };
+		1A45C43E0EF99F98FE5D0BAC3A3AE005 /* AGPullViewConfigurer.h in Headers */ = {isa = PBXBuildFile; fileRef = E9E6D52B9EF93EF43BD5D2B56002707B /* AGPullViewConfigurer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F3B85E7D805C72A8321A04734C70C4 /* AGPullViewConfigurer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4962B5939322BA031144E7FF38A0B5D2 /* AGPullViewConfigurer.m */; };
+		30625DFE4AF78C357CCC0875D719B8B3 /* AGPullView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8116F040673A1B5F5990B451B172CCC8 /* AGPullView.m */; };
+		471B63B4121219362D5838D2C26913E0 /* AGPullView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2109D83D0D2C585B3FEFEADE485470BB /* AGPullView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F7BFF6118E1631C1271BF57DAEEEFAC /* AGPullMarginView.h in Headers */ = {isa = PBXBuildFile; fileRef = C2C067D6F138F1B03EEFD189AF23B23D /* AGPullMarginView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5951F47D21F97660FCBD92133BC143B0 /* AGListViewAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACD58761C23D1E5A3B5F7F9DD435850 /* AGListViewAnimationButton.m */; };
+		5D2D79547A780A664F1A1C255BADE4F4 /* AGPullView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 925A6B34F1AA3502151522C8F85B6474 /* AGPullView-dummy.m */; };
+		6543DB1A5256DC6CF012A3FCE66642BB /* AGPullView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EEB5E5295AC60E8DF88ADF76272865B /* AGPullView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71BF14389AD15914003C8BF447AD12A4 /* Pods-AGPullView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B7E2EAE1ABE3B5A4A490A5C27187B2 /* Pods-AGPullView_Example-dummy.m */; };
+		823952F935726B845660F5079DC30199 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		90E0FF84FE77EDB422B6AB590825CC8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A363876D1F5AFC9542DF3D3813A9D55A /* Pods-AGPullView_Example-AGPullView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10F9ED21C3B4BB3940D3958CE2A06EF3 /* Pods-AGPullView_Example-AGPullView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2DC393DE677423939ADA8363BC4C477 /* AGPullMarginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 363AB216FA1A630EA11DE3F57CB3F3AB /* AGPullMarginView.m */; };
+		C0A3ACB2D33A2F435069163540049247 /* AGListViewAnimationButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D102E00BBCF84C76AEA5FFD8C01884A1 /* AGListViewAnimationButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDC957D65D443BBE4437091852A2CDEA /* AGConfigurerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DD9CCA61A86C8BEFC04796BA3EFA6155 /* AGConfigurerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F713EA35A82ECC54B7C698807C0DEB28 /* AGSettingsEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD23DD02F0022B92592D12C21E98415 /* AGSettingsEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12D0F28E52D593D09058A69FBDA8C996 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48A89F045630C77BCA29E3FB09DAF185;
+			remoteInfo = AGPullView;
+		};
+		B0BC1CAEFE01263230D37102A9F5FE5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48A89F045630C77BCA29E3FB09DAF185;
+			remoteInfo = AGPullView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10F9ED21C3B4BB3940D3958CE2A06EF3 /* Pods-AGPullView_Example-AGPullView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGPullView_Example-AGPullView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1840D24B40310E075E4917FB664F0C3F /* Pods-AGPullView_Example-AGPullView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGPullView_Example-AGPullView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A9D30170E7B830DF0C1F65FC1E0A811 /* Pods-AGPullView_Example-AGPullView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGPullView_Example-AGPullView_Tests-dummy.m"; sourceTree = "<group>"; };
+		1B29AD1DA350EC1A4DC07AB5622D0F02 /* Pods-AGPullView_Example-AGPullView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGPullView_Example-AGPullView_Tests-resources.sh"; sourceTree = "<group>"; };
+		2109D83D0D2C585B3FEFEADE485470BB /* AGPullView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGPullView.h; path = AGPullView/Classes/AGPullView.h; sourceTree = "<group>"; };
+		363AB216FA1A630EA11DE3F57CB3F3AB /* AGPullMarginView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGPullMarginView.m; path = AGPullView/Classes/AGPullMarginView.m; sourceTree = "<group>"; };
+		429476E787BDF5ECE7D63FA687947C3D /* Pods-AGPullView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGPullView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		479AEAD83C4148A2010B6EF41954E21B /* Pods-AGPullView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGPullView_Example-resources.sh"; sourceTree = "<group>"; };
+		4962B5939322BA031144E7FF38A0B5D2 /* AGPullViewConfigurer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGPullViewConfigurer.m; path = AGPullView/Classes/AGPullViewConfigurer.m; sourceTree = "<group>"; };
+		4DA4CE524C5BC910F114FCADB21FE8A3 /* Pods-AGPullView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGPullView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4DD23DD02F0022B92592D12C21E98415 /* AGSettingsEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSettingsEnums.h; path = AGPullView/Classes/AGSettingsEnums.h; sourceTree = "<group>"; };
+		4FE063F6DF6C7F8638B6F26401718F05 /* Pods-AGPullView_Example-AGPullView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGPullView_Example-AGPullView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4FEED7F76A31CCA9D9F11CA250847206 /* AGPullView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AGPullView.modulemap; sourceTree = "<group>"; };
+		580055086BB5CE877EF9071A468269A1 /* Pods-AGPullView_Example-AGPullView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGPullView_Example-AGPullView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		594F69E08409786F3A184A21D6675C37 /* Pods-AGPullView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGPullView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8116F040673A1B5F5990B451B172CCC8 /* AGPullView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGPullView.m; path = AGPullView/Classes/AGPullView.m; sourceTree = "<group>"; };
+		86D3C8F75F75BA365EE295EAD00D7B71 /* Pods-AGPullView_Example-AGPullView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AGPullView_Example-AGPullView_Tests.modulemap"; sourceTree = "<group>"; };
+		8E9868C7292F17DCA848F9119E79ED4A /* AGPullView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGPullView-prefix.pch"; sourceTree = "<group>"; };
+		925A6B34F1AA3502151522C8F85B6474 /* AGPullView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AGPullView-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		940EDB148830712937EA8AAF7479A902 /* Pods-AGPullView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGPullView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9ACD58761C23D1E5A3B5F7F9DD435850 /* AGListViewAnimationButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGListViewAnimationButton.m; path = AGPullView/Classes/AGListViewAnimationButton.m; sourceTree = "<group>"; };
+		9EEB5E5295AC60E8DF88ADF76272865B /* AGPullView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGPullView-umbrella.h"; sourceTree = "<group>"; };
+		AAEAD4EAF3E1C916E91F5E770F43BFBF /* Pods-AGPullView_Example-AGPullView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGPullView_Example-AGPullView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF73AF680AB9E80358D7816437C5D712 /* Pods-AGPullView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AGPullView_Example.modulemap"; sourceTree = "<group>"; };
+		B8370DC197AB0CDB50F139EF3B9C716A /* Pods-AGPullView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGPullView_Example-umbrella.h"; sourceTree = "<group>"; };
+		C2C067D6F138F1B03EEFD189AF23B23D /* AGPullMarginView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGPullMarginView.h; path = AGPullView/Classes/AGPullMarginView.h; sourceTree = "<group>"; };
+		C5449D37805C92F32E01F55FC56C3FB9 /* Pods-AGPullView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGPullView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C75251AFAEF2D4CF7CC9FB1E04AC5110 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0967D58C77B08E5F9BFDEAE88FE5146 /* Pods_AGPullView_Example_AGPullView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGPullView_Example_AGPullView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B7E2EAE1ABE3B5A4A490A5C27187B2 /* Pods-AGPullView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGPullView_Example-dummy.m"; sourceTree = "<group>"; };
+		D102E00BBCF84C76AEA5FFD8C01884A1 /* AGListViewAnimationButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGListViewAnimationButton.h; path = AGPullView/Classes/AGListViewAnimationButton.h; sourceTree = "<group>"; };
+		D404EA78B5BA4679E0C0650FCA634894 /* AGPullView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGPullView.xcconfig; sourceTree = "<group>"; };
+		D7A19A2DA57400E8A4BADD129DBC5820 /* Pods_AGPullView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGPullView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA63F3C8A1E03E5CA26A9ECCD18BDAC /* Pods-AGPullView_Example-AGPullView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGPullView_Example-AGPullView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DD9CCA61A86C8BEFC04796BA3EFA6155 /* AGConfigurerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGConfigurerDelegate.h; path = AGPullView/Classes/AGConfigurerDelegate.h; sourceTree = "<group>"; };
+		E7391DB2F11846D0B83E55C3CD99DC87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9E6D52B9EF93EF43BD5D2B56002707B /* AGPullViewConfigurer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGPullViewConfigurer.h; path = AGPullView/Classes/AGPullViewConfigurer.h; sourceTree = "<group>"; };
+		EAB846001D3CEEF8BCFA1DF400AAF371 /* AGPullView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AGPullView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F404E43C62F742923191C02A9D20C2A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		646CB5B5DECF7C596AD3F338782A70E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823952F935726B845660F5079DC30199 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E7F77C5084F613F9E7646752D4CE7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104CCBF533083FD686D4B434BAA472A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C669F1A4615E99A26928E6DBD29875E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E0FF84FE77EDB422B6AB590825CC8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09847D4C7DA12E737D9B3A70E0FFBAB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D997A18D3E2CD9A1B75AF494BB6F6B5 /* AGPullView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0D997A18D3E2CD9A1B75AF494BB6F6B5 /* AGPullView */ = {
+			isa = PBXGroup;
+			children = (
+				DD9CCA61A86C8BEFC04796BA3EFA6155 /* AGConfigurerDelegate.h */,
+				D102E00BBCF84C76AEA5FFD8C01884A1 /* AGListViewAnimationButton.h */,
+				9ACD58761C23D1E5A3B5F7F9DD435850 /* AGListViewAnimationButton.m */,
+				C2C067D6F138F1B03EEFD189AF23B23D /* AGPullMarginView.h */,
+				363AB216FA1A630EA11DE3F57CB3F3AB /* AGPullMarginView.m */,
+				2109D83D0D2C585B3FEFEADE485470BB /* AGPullView.h */,
+				8116F040673A1B5F5990B451B172CCC8 /* AGPullView.m */,
+				E9E6D52B9EF93EF43BD5D2B56002707B /* AGPullViewConfigurer.h */,
+				4962B5939322BA031144E7FF38A0B5D2 /* AGPullViewConfigurer.m */,
+				4DD23DD02F0022B92592D12C21E98415 /* AGSettingsEnums.h */,
+				CB9CF5901A13B1F25A5C87545D329339 /* Support Files */,
+			);
+			path = AGPullView;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5CA0BBEAF3B05AA6638A1875E00A60F6 /* Pods-AGPullView_Example-AGPullView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C75251AFAEF2D4CF7CC9FB1E04AC5110 /* Info.plist */,
+				86D3C8F75F75BA365EE295EAD00D7B71 /* Pods-AGPullView_Example-AGPullView_Tests.modulemap */,
+				1840D24B40310E075E4917FB664F0C3F /* Pods-AGPullView_Example-AGPullView_Tests-acknowledgements.markdown */,
+				580055086BB5CE877EF9071A468269A1 /* Pods-AGPullView_Example-AGPullView_Tests-acknowledgements.plist */,
+				1A9D30170E7B830DF0C1F65FC1E0A811 /* Pods-AGPullView_Example-AGPullView_Tests-dummy.m */,
+				4FE063F6DF6C7F8638B6F26401718F05 /* Pods-AGPullView_Example-AGPullView_Tests-frameworks.sh */,
+				1B29AD1DA350EC1A4DC07AB5622D0F02 /* Pods-AGPullView_Example-AGPullView_Tests-resources.sh */,
+				10F9ED21C3B4BB3940D3958CE2A06EF3 /* Pods-AGPullView_Example-AGPullView_Tests-umbrella.h */,
+				AAEAD4EAF3E1C916E91F5E770F43BFBF /* Pods-AGPullView_Example-AGPullView_Tests.debug.xcconfig */,
+				DCA63F3C8A1E03E5CA26A9ECCD18BDAC /* Pods-AGPullView_Example-AGPullView_Tests.release.xcconfig */,
+			);
+			name = "Pods-AGPullView_Example-AGPullView_Tests";
+			path = "Target Support Files/Pods-AGPullView_Example-AGPullView_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				09847D4C7DA12E737D9B3A70E0FFBAB7 /* Pods */,
+				B53B5542A394A6EABBB750FC906D4D15 /* Products */,
+				85F5703BDF52A6A2634BFF5A6EC20ACA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85F5703BDF52A6A2634BFF5A6EC20ACA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEA71A9354AD8B5D821F9618DB78803C /* Pods-AGPullView_Example */,
+				5CA0BBEAF3B05AA6638A1875E00A60F6 /* Pods-AGPullView_Example-AGPullView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B53B5542A394A6EABBB750FC906D4D15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAB846001D3CEEF8BCFA1DF400AAF371 /* AGPullView.framework */,
+				D7A19A2DA57400E8A4BADD129DBC5820 /* Pods_AGPullView_Example.framework */,
+				D0967D58C77B08E5F9BFDEAE88FE5146 /* Pods_AGPullView_Example_AGPullView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEA71A9354AD8B5D821F9618DB78803C /* Pods-AGPullView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F404E43C62F742923191C02A9D20C2A9 /* Info.plist */,
+				AF73AF680AB9E80358D7816437C5D712 /* Pods-AGPullView_Example.modulemap */,
+				594F69E08409786F3A184A21D6675C37 /* Pods-AGPullView_Example-acknowledgements.markdown */,
+				940EDB148830712937EA8AAF7479A902 /* Pods-AGPullView_Example-acknowledgements.plist */,
+				D0B7E2EAE1ABE3B5A4A490A5C27187B2 /* Pods-AGPullView_Example-dummy.m */,
+				429476E787BDF5ECE7D63FA687947C3D /* Pods-AGPullView_Example-frameworks.sh */,
+				479AEAD83C4148A2010B6EF41954E21B /* Pods-AGPullView_Example-resources.sh */,
+				B8370DC197AB0CDB50F139EF3B9C716A /* Pods-AGPullView_Example-umbrella.h */,
+				C5449D37805C92F32E01F55FC56C3FB9 /* Pods-AGPullView_Example.debug.xcconfig */,
+				4DA4CE524C5BC910F114FCADB21FE8A3 /* Pods-AGPullView_Example.release.xcconfig */,
+			);
+			name = "Pods-AGPullView_Example";
+			path = "Target Support Files/Pods-AGPullView_Example";
+			sourceTree = "<group>";
+		};
+		CB9CF5901A13B1F25A5C87545D329339 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FEED7F76A31CCA9D9F11CA250847206 /* AGPullView.modulemap */,
+				D404EA78B5BA4679E0C0650FCA634894 /* AGPullView.xcconfig */,
+				925A6B34F1AA3502151522C8F85B6474 /* AGPullView-dummy.m */,
+				8E9868C7292F17DCA848F9119E79ED4A /* AGPullView-prefix.pch */,
+				9EEB5E5295AC60E8DF88ADF76272865B /* AGPullView-umbrella.h */,
+				E7391DB2F11846D0B83E55C3CD99DC87 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AGPullView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4ED154F8EA080D38797D65C11646B885 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A363876D1F5AFC9542DF3D3813A9D55A /* Pods-AGPullView_Example-AGPullView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54E0657C16B86F010FE3717A9EAFFDC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC957D65D443BBE4437091852A2CDEA /* AGConfigurerDelegate.h in Headers */,
+				C0A3ACB2D33A2F435069163540049247 /* AGListViewAnimationButton.h in Headers */,
+				4F7BFF6118E1631C1271BF57DAEEEFAC /* AGPullMarginView.h in Headers */,
+				6543DB1A5256DC6CF012A3FCE66642BB /* AGPullView-umbrella.h in Headers */,
+				471B63B4121219362D5838D2C26913E0 /* AGPullView.h in Headers */,
+				1A45C43E0EF99F98FE5D0BAC3A3AE005 /* AGPullViewConfigurer.h in Headers */,
+				F713EA35A82ECC54B7C698807C0DEB28 /* AGSettingsEnums.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E60A9873467AC2A175FCDC466059B9A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F8EB8715B3F4AC5607E112C799D320 /* Pods-AGPullView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		48A89F045630C77BCA29E3FB09DAF185 /* AGPullView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 896FAE7806D9DA00F43E0A7E1412A0ED /* Build configuration list for PBXNativeTarget "AGPullView" */;
+			buildPhases = (
+				E54F5DA884472ACB3EDFAA75A8858F30 /* Sources */,
+				646CB5B5DECF7C596AD3F338782A70E3 /* Frameworks */,
+				54E0657C16B86F010FE3717A9EAFFDC8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AGPullView;
+			productName = AGPullView;
+			productReference = EAB846001D3CEEF8BCFA1DF400AAF371 /* AGPullView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9BAE90AEB0E92ECF7B5AB1EB7051EB46 /* Pods-AGPullView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1474E331757339D132D52C5BEE9E97A7 /* Build configuration list for PBXNativeTarget "Pods-AGPullView_Example" */;
+			buildPhases = (
+				3FBAAEA7CC7F74FBC7C53749A9822D29 /* Sources */,
+				69E7F77C5084F613F9E7646752D4CE7F /* Frameworks */,
+				E60A9873467AC2A175FCDC466059B9A5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5916BD61BBA03457AC31D8E44983A0A /* PBXTargetDependency */,
+			);
+			name = "Pods-AGPullView_Example";
+			productName = "Pods-AGPullView_Example";
+			productReference = D7A19A2DA57400E8A4BADD129DBC5820 /* Pods_AGPullView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AFC6E0978F36904E77D975E97B2F2B3F /* Pods-AGPullView_Example-AGPullView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38ECEF22DA936EB5020124EA5CCD09DC /* Build configuration list for PBXNativeTarget "Pods-AGPullView_Example-AGPullView_Tests" */;
+			buildPhases = (
+				D8FEFC2C4FDAC11804107AA20D0B52F5 /* Sources */,
+				C669F1A4615E99A26928E6DBD29875E2 /* Frameworks */,
+				4ED154F8EA080D38797D65C11646B885 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				478CE04617D9ED1A193A971CA169D1FA /* PBXTargetDependency */,
+			);
+			name = "Pods-AGPullView_Example-AGPullView_Tests";
+			productName = "Pods-AGPullView_Example-AGPullView_Tests";
+			productReference = D0967D58C77B08E5F9BFDEAE88FE5146 /* Pods_AGPullView_Example_AGPullView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B53B5542A394A6EABBB750FC906D4D15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48A89F045630C77BCA29E3FB09DAF185 /* AGPullView */,
+				9BAE90AEB0E92ECF7B5AB1EB7051EB46 /* Pods-AGPullView_Example */,
+				AFC6E0978F36904E77D975E97B2F2B3F /* Pods-AGPullView_Example-AGPullView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FBAAEA7CC7F74FBC7C53749A9822D29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BF14389AD15914003C8BF447AD12A4 /* Pods-AGPullView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8FEFC2C4FDAC11804107AA20D0B52F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				125FCA7FE826D8AB510D837474D3AFB4 /* Pods-AGPullView_Example-AGPullView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E54F5DA884472ACB3EDFAA75A8858F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5951F47D21F97660FCBD92133BC143B0 /* AGListViewAnimationButton.m in Sources */,
+				B2DC393DE677423939ADA8363BC4C477 /* AGPullMarginView.m in Sources */,
+				5D2D79547A780A664F1A1C255BADE4F4 /* AGPullView-dummy.m in Sources */,
+				30625DFE4AF78C357CCC0875D719B8B3 /* AGPullView.m in Sources */,
+				21F3B85E7D805C72A8321A04734C70C4 /* AGPullViewConfigurer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		478CE04617D9ED1A193A971CA169D1FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AGPullView;
+			target = 48A89F045630C77BCA29E3FB09DAF185 /* AGPullView */;
+			targetProxy = 12D0F28E52D593D09058A69FBDA8C996 /* PBXContainerItemProxy */;
+		};
+		D5916BD61BBA03457AC31D8E44983A0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AGPullView;
+			target = 48A89F045630C77BCA29E3FB09DAF185 /* AGPullView */;
+			targetProxy = B0BC1CAEFE01263230D37102A9F5FE5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01CB04D0E0DE8F28BFB3ABE63C16D131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAEAD4EAF3E1C916E91F5E770F43BFBF /* Pods-AGPullView_Example-AGPullView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AGPullView_Example-AGPullView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGPullView_Example-AGPullView_Tests/Pods-AGPullView_Example-AGPullView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AGPullView_Example_AGPullView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		17479904096DBFD8C3DA1A10F51643BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5449D37805C92F32E01F55FC56C3FB9 /* Pods-AGPullView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AGPullView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGPullView_Example/Pods-AGPullView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AGPullView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		20356A031AD0F1C3CAE27CB83EAF777E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D404EA78B5BA4679E0C0650FCA634894 /* AGPullView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AGPullView/AGPullView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AGPullView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AGPullView/AGPullView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AGPullView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3430EA74FE336B4DD7D4AFFC81D13EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D404EA78B5BA4679E0C0650FCA634894 /* AGPullView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AGPullView/AGPullView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AGPullView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AGPullView/AGPullView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AGPullView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		73EAC049449CDB41246F7C958363536A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCA63F3C8A1E03E5CA26A9ECCD18BDAC /* Pods-AGPullView_Example-AGPullView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AGPullView_Example-AGPullView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGPullView_Example-AGPullView_Tests/Pods-AGPullView_Example-AGPullView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AGPullView_Example_AGPullView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F398059E2F290AB969798B3950956525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DA4CE524C5BC910F114FCADB21FE8A3 /* Pods-AGPullView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AGPullView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGPullView_Example/Pods-AGPullView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AGPullView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1474E331757339D132D52C5BEE9E97A7 /* Build configuration list for PBXNativeTarget "Pods-AGPullView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17479904096DBFD8C3DA1A10F51643BB /* Debug */,
+				F398059E2F290AB969798B3950956525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38ECEF22DA936EB5020124EA5CCD09DC /* Build configuration list for PBXNativeTarget "Pods-AGPullView_Example-AGPullView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CB04D0E0DE8F28BFB3ABE63C16D131 /* Debug */,
+				73EAC049449CDB41246F7C958363536A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		896FAE7806D9DA00F43E0A7E1412A0ED /* Build configuration list for PBXNativeTarget "AGPullView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3430EA74FE336B4DD7D4AFFC81D13EF0 /* Debug */,
+				20356A031AD0F1C3CAE27CB83EAF777E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
