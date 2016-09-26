@@ -13,6 +13,16 @@
 
 @interface AGPullViewConfigurer : NSObject
 
+//**************************************************
+//*                                                *
+//*      In early releases of iOS 10 you will      *
+//*      have to call layoutIfNeeded to pullView   *
+//*      property to avoid incorrect layout.       *
+//*      You can find layoutPullView method in     *
+//*      configurer for this                       *
+//*                                                *
+//**************************************************
+
 /*!
  * @brief You can access to pull view's content view with this property
  */
@@ -40,6 +50,7 @@
 
 /*!
  * @brief Style of blur effect. First enable with calling "enableBlurEffectWithBlurStyle:". Then you can change blur style dynamically
+ * @warning Makes any effect only on devices with iOS 8 or higher
  */
 @property (assign, nonatomic) UIBlurEffectStyle                              blurStyle;
 
@@ -80,14 +91,14 @@
 - (void)fullfillContentViewWithView:(UIView *)view;
 
 /*!
- * @brief call to apply blur effect on pull view
+ * @brief Call to apply blur effect on pull view
  * @param style UIBlurEffectStyle enum value
  * @warning iOS 8 and higher
  */
 - (void)enableBlurEffectWithBlurStyle:(UIBlurEffectStyle)style;
 
 /*!
- * @brief call to undo blur effect which was set earlier on pull view
+ * @brief Call to undo blur effect which was set earlier on pull view
  */
 - (void)undoBlurEffect;
 
@@ -99,6 +110,7 @@
 
 /*!
  * @brief Call in touchesEnded method of superview to have an ability to drag pull view
+ * @warning Do not call this method if you don't want AGPullView to be automatically hidden/showed with animation when user will stop draging
  * @param touches Touches recieved in your view's touchesEnded method
  */
 - (void)handleTouchesEnded:(NSSet<UITouch *> *)touches;
@@ -120,6 +132,11 @@
  * @param animated Choose if showing should be animated or not
  */
 - (void)showAnimated:(BOOL)animated;
+
+/*!
+ * @brief Call for calling layoutIfNeeded to AGPullView
+ */
+- (void)layoutPullView;
 
 
 @end

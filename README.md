@@ -41,6 +41,7 @@ import "AGPullViewConfigurer.h"
 ##Initialization
 
 Just use standart initialization
+
 *Objective-C*
 ```ObjC
 self.configurer = [AGPullViewConfigurer new];
@@ -51,6 +52,7 @@ let configurer = AGPullViewConfigurer()
 ```
 
 Then setup AGPullView for your view like so (white preset color scheme - default):
+
 *Objective-C*
 ```ObjC
 [self.configurer setupPullViewForSuperview:self.view];
@@ -61,6 +63,7 @@ self.configurer.setupPullView(forSuperview: self.view)
 ```
 
 Or you can setup AGPullView with one of preset color schemes
+
 *Objective-C*
 ```ObjC
 [self.configurer setupPullViewForSuperview:self.view colorScheme:ColorSchemeTypeGrayTransparent];
@@ -71,6 +74,7 @@ self.configurer.setupPullView(forSuperview: self.view, colorScheme:ColorSchemeTy
 ```
 
 Then you also should override several your superview's UIResponder methods with calling AGPullView methods there:
+
 *Objective-C*
 ```ObjC
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
@@ -115,6 +119,7 @@ self.configurer.contentView
 ```
 
 There is also a convenient method for filling whole content view with your content (ex. UITableView). It will also create necessary constraints for you.
+
 *Objective-C*
 ```ObjC
 [self.configurer fullfillContentViewWithView:tableView];
@@ -127,6 +132,7 @@ self.configurer.fullfillContentView(with: table)
 (iOS 8.0 +) You can turn on/off blur effect like so: 
 
 ON
+
 *Objective-C*
 ```ObjC
 [self.configurer enableBlurEffectWithBlurStyle:UIBlurEffectStyleLight];
@@ -135,6 +141,7 @@ ON
 self.configurer.enableBlurEffect(withBlurStyle: .dark)
 ```
 OFF
+
 *Objective-C*
 ```ObjC
 [self.configurer undoBlurEffect];
@@ -144,6 +151,7 @@ self.configurer.undoBlurEffect()
 ```
 
 Animation control is provided with these useful methods:
+
 *Objective-C*
 ```ObjC
 self.configurer.enableShowingWithTouch = YES;
