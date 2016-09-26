@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AGPullView'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'Container view for pulling it from bottom of its superview.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ This view could be container for any of yur content. I look forward to you sugge
   s.source           = { :git => 'https://github.com/iaagg/AGPullView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.1'
 
   s.source_files = 'AGPullView/Classes/**/*'
   

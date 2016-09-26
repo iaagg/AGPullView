@@ -21,14 +21,12 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="353-U9-ln0">
                                 <color key="backgroundColor" red="0.94117647059999998" green="0.23529411759999999" blue="0.1019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="304" id="XyT-hf-z2W"/>
                                     <constraint firstAttribute="height" constant="128" id="q3H-Z7-rN9"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p2v-jP-aVG">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="295" id="ffI-zb-Xe5"/>
-                                    <constraint firstAttribute="width" constant="304" id="iou-Cu-GvP"/>
                                 </constraints>
                                 <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et eleifend lectus. Donec ac viverra urna. Curabitur ac eros eget nisl semper facilisis id vel metus. Duis viverra posuere ante non mollis. Nullam sed dui sapien. Nulla facilisi. Nunc id enim aliquet, placerat dolor eu, laoreet ante. Praesent tincidunt hendrerit ex, ut placerat neque dapibus sed. Nulla non ex at purus semper fermentum. Proin aliquet interdum lorem ac luctus. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -60,9 +58,13 @@
                         <constraints>
                             <constraint firstItem="353-U9-ln0" firstAttribute="top" secondItem="p2v-jP-aVG" secondAttribute="bottom" constant="8" id="0TA-hz-lB5"/>
                             <constraint firstItem="W0u-L7-tXU" firstAttribute="centerX" secondItem="JGA-Yi-h6j" secondAttribute="centerX" id="5Yt-u0-4Xi"/>
+                            <constraint firstItem="p2v-jP-aVG" firstAttribute="leading" secondItem="JGA-Yi-h6j" secondAttribute="leading" constant="35.5" id="90r-1R-bnl"/>
                             <constraint firstItem="aMf-sx-O4E" firstAttribute="top" secondItem="SOU-LA-W7n" secondAttribute="bottom" id="Duo-fd-WKB"/>
+                            <constraint firstAttribute="trailing" secondItem="353-U9-ln0" secondAttribute="trailing" constant="35.5" id="Fki-r7-XUZ"/>
                             <constraint firstItem="W0u-L7-tXU" firstAttribute="top" secondItem="aMf-sx-O4E" secondAttribute="bottom" constant="8" id="H4o-ZW-3lw"/>
                             <constraint firstItem="R6B-gu-mLF" firstAttribute="top" secondItem="353-U9-ln0" secondAttribute="bottom" constant="20" id="YBa-lV-1PJ"/>
+                            <constraint firstItem="353-U9-ln0" firstAttribute="leading" secondItem="JGA-Yi-h6j" secondAttribute="leading" constant="35.5" id="YX6-an-TXA"/>
+                            <constraint firstAttribute="trailing" secondItem="p2v-jP-aVG" secondAttribute="trailing" constant="35.5" id="aYT-CE-4YR"/>
                             <constraint firstItem="353-U9-ln0" firstAttribute="centerX" secondItem="JGA-Yi-h6j" secondAttribute="centerX" id="amX-gg-b5z"/>
                             <constraint firstItem="p2v-jP-aVG" firstAttribute="centerX" secondItem="JGA-Yi-h6j" secondAttribute="centerX" id="bri-vJ-Qtr"/>
                             <constraint firstItem="aMf-sx-O4E" firstAttribute="centerX" secondItem="JGA-Yi-h6j" secondAttribute="centerX" id="hHj-Vp-bva"/>
