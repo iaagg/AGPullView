@@ -86,7 +86,7 @@ static NSString *const AGDirectInitExeptionMessage = @"You shold use \"configure
         self.needBounceEffect = false;
     }
     
-        return self;
+    return self;
 }
 
 - (void)dealloc {
@@ -116,22 +116,22 @@ static NSString *const AGDirectInitExeptionMessage = @"You shold use \"configure
         return;
         
     } else if ([keyPath isEqualToString:HIDING_WITH_TOUCH]) {
-            BOOL newValue = [change[@"new"] boolValue];
-            BOOL oldValue = [change[@"old"] boolValue];
-            
-            if (!self.superview) {
-                return;
-            }
-            
-            if (newValue && !oldValue) {
-                [self p_setupTouchButtons];
-            } else if (!newValue && oldValue) {
-                [upperButton removeFromSuperview];
-                upperButton = nil;
-            }
+        BOOL newValue = [change[@"new"] boolValue];
+        BOOL oldValue = [change[@"old"] boolValue];
+        
+        if (!self.superview) {
+            return;
+        }
+        
+        if (newValue && !oldValue) {
+            [self p_setupTouchButtons];
+        } else if (!newValue && oldValue) {
+            [upperButton removeFromSuperview];
+            upperButton = nil;
+        }
         
         return;
-
+        
     } else if ([keyPath isEqualToString:COLOR_SCHEME_TYPE]) {
         PullViewColorSchemeType newValue = [change[@"new"] intValue];
         [self p_switchColorSchemeType:newValue];
@@ -224,7 +224,7 @@ static NSString *const AGDirectInitExeptionMessage = @"You shold use \"configure
 - (void)setupPullViewForSuperview:(UIView *)superview {
     
     self.superview = superview;
-        
+    
     self.pullView = [[AGPullView alloc] initWithFrame:CGRectZero];
     [self p_setupBlurEffect];
     [self p_turnOffBlurEffect];
@@ -632,8 +632,8 @@ static NSString *const AGDirectInitExeptionMessage = @"You shold use \"configure
     
     //Recognize touch on ImageView on top of List view
     BOOL pullingView = [[touch.view class] isSubclassOfClass:[AGListViewAnimationButton class]] ||
-                       [[touch.view class] isSubclassOfClass:[AGPullMarginView class]]            ||
-                       [[[touch.view superview] class] isSubclassOfClass:[AGPullMarginView class]];
+    [[touch.view class] isSubclassOfClass:[AGPullMarginView class]]            ||
+    [[[touch.view superview] class] isSubclassOfClass:[AGPullMarginView class]];
     
     if (pullingView) {
         

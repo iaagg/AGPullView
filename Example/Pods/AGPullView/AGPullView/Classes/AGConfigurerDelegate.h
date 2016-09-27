@@ -1,7 +1,4 @@
 //
-//  AGConfigurerDelegate.h
-//  AGPullView
-//
 //  Created by Alexey Getman on 12/06/16.
 //  Copyright © 2016 Alexey Getman. All rights reserved.
 //
@@ -29,11 +26,11 @@
 - (void)didHidePullView:(AGPullView *)pullView;
 
 /*!
-* @discussion didDrag
-* @brief Called when user is draging AGPulView in any direction (up/down)
-* @param pullView - AGPullView
-* @param openingPercent - value from 0 to 1 shows percent of opening AGPullView to it's max size
-*/
+ * @discussion didDrag
+ * @brief Called when user is draging AGPulView in any direction (up/down)
+ * @param pullView - AGPullView
+ * @param openingPercent - value from 0 to 1 shows percent of opening AGPullView to it's max size
+ */
 - (void)didDragPullView:(AGPullView *)pullView withOpeningPercent:(float)openingPercent;
 
 /*!
@@ -52,3 +49,4 @@
 @end
 
 #endif /* AGConfigurerDelegate_h */
+
