@@ -6,7 +6,7 @@
 //  Copyright © 2016 Alexey Getman. All rights reserved.
 //
 
-#import "AGPullViewConfigurer.h"
+#import "AGPullViewConfigurator.h"
 #import "AGListViewAnimationButton.h"
 #import "AGPullMarginView.h"
 #import "AGPullView.h"
@@ -42,10 +42,10 @@ typedef enum {
     HIDDEN
 } ViewState;
 
-static NSString *const AGDirectInitEnabledFlag = @"kAGPullViewConfigurerDirectInitEnabled";
-static NSString *const AGDirectInitExeptionMessage = @"You shold use \"configurer\" singleton instead of direct initialization";
+static NSString *const AGDirectInitEnabledFlag = @"kAGPullViewConfiguratorDirectInitEnabled";
+static NSString *const AGDirectInitExeptionMessage = @"You shold use \"configurator\" singleton instead of direct initialization";
 
-@interface AGPullViewConfigurer ()
+@interface AGPullViewConfigurator ()
 
 @property (strong, nonatomic) AGPullView                            *pullView;
 @property (weak, nonatomic) UIView                                  *superview;
@@ -62,7 +62,7 @@ static NSString *const AGDirectInitExeptionMessage = @"You shold use \"configure
 
 @end
 
-@implementation AGPullViewConfigurer {
+@implementation AGPullViewConfigurator {
     ViewState               _lastViewState;
     CGFloat                 oldY;
     BOOL                    dragging;

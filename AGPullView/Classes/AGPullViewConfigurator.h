@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "AGSettingsEnums.h"
-#import "AGConfigurerDelegate.h"
+#import "AGConfiguratorDelegate.h"
 
-@interface AGPullViewConfigurer : NSObject
+@interface AGPullViewConfigurator : NSObject
 
 //**************************************************
 //*                                                *
@@ -19,7 +19,7 @@
 //*      have to call layoutIfNeeded to pullView   *
 //*      property to avoid incorrect layout.       *
 //*      You can find layoutPullView method in     *
-//*      configurer for this                       *
+//*      configurator for this                       *
 //*                                                *
 //**************************************************
 
@@ -60,9 +60,9 @@
 @property (assign, nonatomic) BOOL                                           needBounceEffect;
 
 /*!
- * @brief Delegate conforms to protocol <AGConfigurerDelegate>
+ * @brief Delegate conforms to protocol <AGConfiguratorDelegate>
  */
-@property (strong, nonatomic) id <AGConfigurerDelegate>                      delegate;
+@property (strong, nonatomic) id <AGConfiguratorDelegate>                      delegate;
 
 /*!
  * @brief Default - 100 percent. Value should be from 0 to 100. Value with 0 will be equal to default minimum height.

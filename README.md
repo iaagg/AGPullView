@@ -31,11 +31,11 @@ Short demo of AGPullView performance.
 
 #Usage
 
-First, import AGPullViewConfigurer
-For SWIFT - you should import AGPullViewConfigurer in bridging header first to use AGPullView
+First, import AGPullViewConfigurator
+For SWIFT - you should import AGPullViewConfigurator in bridging header first to use AGPullView
 
 ```ObjC
-import "AGPullViewConfigurer.h"
+import "AGPullViewConfigurator.h"
 ```
 
 ##Initialization
@@ -44,33 +44,33 @@ Just use standart initialization
 
 *Objective-C*
 ```ObjC
-self.configurer = [AGPullViewConfigurer new];
+self.configurator = [AGPullViewConfigurator new];
 ```
 *SWIFT*
 ```Swift
-let configurer = AGPullViewConfigurer()
+let configurator = AGPullViewConfigurator()
 ```
 
 Then setup AGPullView for your view like so (white preset color scheme - default):
 
 *Objective-C*
 ```ObjC
-[self.configurer setupPullViewForSuperview:self.view];
+[self.configurator setupPullViewForSuperview:self.view];
 ```
 *SWIFT*
 ```Swift
-self.configurer.setupPullView(forSuperview: self.view)
+self.configurator.setupPullView(forSuperview: self.view)
 ```
 
 Or you can setup AGPullView with one of preset color schemes
 
 *Objective-C*
 ```ObjC
-[self.configurer setupPullViewForSuperview:self.view colorScheme:ColorSchemeTypeGrayTransparent];
+[self.configurator setupPullViewForSuperview:self.view colorScheme:ColorSchemeTypeGrayTransparent];
 ```
 *SWIFT*
 ```Swift
-self.configurer.setupPullView(forSuperview: self.view, colorScheme:ColorSchemeTypeDarkTransparent)
+self.configurator.setupPullView(forSuperview: self.view, colorScheme:ColorSchemeTypeDarkTransparent)
 ```
 
 Then you also should override several your superview's UIResponder methods with calling AGPullView methods there:
@@ -78,29 +78,29 @@ Then you also should override several your superview's UIResponder methods with 
 *Objective-C*
 ```ObjC
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [self.configurer handleTouchesBegan:touches];
+    [self.configurator handleTouchesBegan:touches];
 }
 
 - (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [self.configurer handleTouchesMoved:touches];
+    [self.configurator handleTouchesMoved:touches];
 }
 
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [self.configurer handleTouchesEnded:touches];
+    [self.configurator handleTouchesEnded:touches];
 }
 ```
 *SWIFT*
 ```Swift
 override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-    self.configurer.handleTouchesBegan(touches)
+    self.configurator.handleTouchesBegan(touches)
 }
 
 override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
-    self.configurer.handleTouchesMoved(touches)
+    self.configurator.handleTouchesMoved(touches)
 }
 
 override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-    self.configurer.handleTouchesEnded(touches)
+    self.configurator.handleTouchesEnded(touches)
 }
 ```
 
@@ -108,25 +108,25 @@ Great! Now your AGPullView is ready for using!
 
 ##Settings
 
-Use AGConfigurerDelegate methods for full control
+Use AGconfiguratorDelegate methods for full control
 ```ObjC
-self.configurer.delegate
+self.configurator.delegate
 ```
 
 You can fill AGPullView with your content by accessing property contentView like so:
 ```ObjC
-self.configurer.contentView
+self.configurator.contentView
 ```
 
 There is also a convenient method for filling whole content view with your content (ex. UITableView). It will also create necessary constraints for you.
 
 *Objective-C*
 ```ObjC
-[self.configurer fullfillContentViewWithView:tableView];
+[self.configurator fullfillContentViewWithView:tableView];
 ```
 *SWIFT*
 ```Swift
-self.configurer.fullfillContentView(with: table)
+self.configurator.fullfillContentView(with: table)
 ```
 
 You can turn on/off blur effect like so: 
@@ -135,58 +135,58 @@ ON
 
 *Objective-C*
 ```ObjC
-[self.configurer enableBlurEffectWithBlurStyle:UIBlurEffectStyleLight];
+[self.configurator enableBlurEffectWithBlurStyle:UIBlurEffectStyleLight];
 ```
 ```Swift
-self.configurer.enableBlurEffect(withBlurStyle: .dark)
+self.configurator.enableBlurEffect(withBlurStyle: .dark)
 ```
 OFF
 
 *Objective-C*
 ```ObjC
-[self.configurer undoBlurEffect];
+[self.configurator undoBlurEffect];
 ```
 ```Swift
-self.configurer.undoBlurEffect()
+self.configurator.undoBlurEffect()
 ```
 
 Animation control is provided with these useful methods:
 
 *Objective-C*
 ```ObjC
-self.configurer.enableShowingWithTouch = YES;
-self.configurer.enableHidingWithTouch = YES;
+self.configurator.enableShowingWithTouch = YES;
+self.configurator.enableHidingWithTouch = YES;
 
-[self.configurer hideAnimated:YES];
-[self.configurer showAnimated:YES];
+[self.configurator hideAnimated:YES];
+[self.configurator showAnimated:YES];
 ```
 ```Swift
-self.configurer.enableShowingWithTouch = YES;
-self.configurer.enableHidingWithTouch = YES;
+self.configurator.enableShowingWithTouch = YES;
+self.configurator.enableHidingWithTouch = YES;
 
-self.configurer.hide(animated: YES)
-self.configurer.hide(animated: YES)
+self.configurator.hide(animated: YES)
+self.configurator.hide(animated: YES)
 ```
 
 There is batch of useful settings for your AGPullView instance:
 ```ObjC
-self.configurer.colorSchemeType
+self.configurator.colorSchemeType
 
-self.configurer.animationDuration
+self.configurator.animationDuration
 
-self.configurer.blurStyle
+self.configurator.blurStyle
 
-self.configurer.needBounceEffect
+self.configurator.needBounceEffect
 
-self.configurer.percentOfFilling
+self.configurator.percentOfFilling
 ```
 
 AGPullView uses KVO, so some performance can be changed in runtime with theese properties
 ```ObjC
-self.configurer.enableShowingWithTouch
-self.configurer.enableHidingWithTouch
-self.configurer.blurStyle
-self.configurer.colorSchemeType
+self.configurator.enableShowingWithTouch
+self.configurator.enableHidingWithTouch
+self.configurator.blurStyle
+self.configurator.colorSchemeType
 ```
 And here is a demo of random changing properties 'blurStyle' and 'colorSchemeType'
 ![Demo](https://media.giphy.com/media/2AmsmlYktMzFS/giphy.gif)

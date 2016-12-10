@@ -1,11 +1,9 @@
 use_frameworks!
 
 target 'AGPullView_Example' do
-  pod 'AGPullView' 
+  pod 'AGPullView', '0.4.4'
+end
 
-  target 'AGPullView_Tests' do
-    pod 'AGPullView'
-
-    
-  end
+target 'AGPullView_Tests' do
+  pod 'AGPullView', '0.4.4'
 end

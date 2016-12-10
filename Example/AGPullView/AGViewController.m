@@ -7,11 +7,11 @@
 //
 
 #import "AGViewController.h"
-#import "AGPullViewConfigurer.h"
+#import "AGPullViewconfigurator.h"
 
-@interface AGViewController () <AGConfigurerDelegate, UITableViewDataSource>
+@interface AGViewController () <AGConfiguratorDelegate, UITableViewDataSource>
 
-@property (nonatomic, strong) AGPullViewConfigurer *configurer;
+@property (nonatomic, strong) AGPullViewConfigurator *configurator;
 
 @end
 
@@ -22,15 +22,15 @@
     [super viewDidLoad];
     
     //AGPullView configuration
-    self.configurer = [AGPullViewConfigurer new];
-    [self.configurer setupPullViewForSuperview:self.view colorScheme:ColorSchemeTypeGrayTransparent];
-    self.configurer.percentOfFilling = @85;
-    self.configurer.delegate = self;
-    self.configurer.needBounceEffect = true;
-    self.configurer.animationDuration = @0.3;
-    self.configurer.enableShowingWithTouch = true;
-    self.configurer.enableHidingWithTouch = false;
-    [self.configurer enableBlurEffectWithBlurStyle:UIBlurEffectStyleLight];
+    self.configurator = [AGPullViewConfigurator new];
+    [self.configurator setupPullViewForSuperview:self.view colorScheme:ColorSchemeTypeGrayTransparent];
+    self.configurator.percentOfFilling = @85;
+    self.configurator.delegate = self;
+    self.configurator.needBounceEffect = true;
+    self.configurator.animationDuration = @0.3;
+    self.configurator.enableShowingWithTouch = true;
+    self.configurator.enableHidingWithTouch = false;
+    [self.configurator enableBlurEffectWithBlurStyle:UIBlurEffectStyleLight];
     
     //Test UITableView
     UITableView *table = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, 300, 300) style:UITableViewStyleGrouped];
@@ -39,13 +39,13 @@
     table.backgroundColor = [UIColor clearColor];
     
     //Filling whole AGPullView with test UITableView
-    [self.configurer fullfillContentViewWithView:table];
+    [self.configurator fullfillContentViewWithView:table];
 }
 
 //For correct working of layout in early versions of iOS 10
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
-    [self.configurer layoutPullView];
+    [self.configurator layoutPullView];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -62,15 +62,15 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [self.configurer handleTouchesBegan:touches];
+    [self.configurator handleTouchesBegan:touches];
 }
 
 - (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [self.configurer handleTouchesMoved:touches];
+    [self.configurator handleTouchesMoved:touches];
 }
 
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [self.configurer handleTouchesEnded:touches];
+    [self.configurator handleTouchesEnded:touches];
 }
 
 - (void)didDragPullView:(AGPullView *)pullView withOpeningPercent:(float)openingPercent {
@@ -101,10 +101,10 @@
 
 - (IBAction)changeAppearenceToRandom:(id)sender {
     NSInteger randomBlur = arc4random_uniform(2);
-    self.configurer.blurStyle = randomBlur;
+    self.configurator.blurStyle = randomBlur;
     
     NSInteger randomColorScheme = arc4random_uniform(6);
-    self.configurer.colorSchemeType = randomColorScheme;
+    self.configurator.colorSchemeType = randomColorScheme;
 }
 
 @end

@@ -8,22 +8,22 @@
 
 import UIKit
 
-class AGViewControllerSwift: UIViewController, AGConfigurerDelegate, UITableViewDataSource {
+class AGViewControllerSwift: UIViewController, AGConfiguratorDelegate, UITableViewDataSource {
     
-    let configurer = AGPullViewConfigurer()
+    let configurator = AGPullViewConfigurator()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //AGPullView configuration
-        self.configurer.setupPullView(forSuperview: self.view, colorScheme:ColorSchemeTypeDarkTransparent)
-        self.configurer.percentOfFilling = 85
-        self.configurer.delegate = self
-        self.configurer.needBounceEffect = true
-        self.configurer.animationDuration = 0.3
-        self.configurer.enableShowingWithTouch = true;
-        self.configurer.enableHidingWithTouch = false;
-        self.configurer.enableBlurEffect(withBlurStyle: .dark)
+        self.configurator.setupPullView(forSuperview: self.view, colorScheme:ColorSchemeTypeDarkTransparent)
+        self.configurator.percentOfFilling = 85
+        self.configurator.delegate = self
+        self.configurator.needBounceEffect = true
+        self.configurator.animationDuration = 0.3
+        self.configurator.enableShowingWithTouch = true;
+        self.configurator.enableHidingWithTouch = false;
+        self.configurator.enableBlurEffect(withBlurStyle: .dark)
         
         //Test UITableView
         let table = UITableView(frame: CGRect(), style: .grouped)
@@ -32,13 +32,13 @@ class AGViewControllerSwift: UIViewController, AGConfigurerDelegate, UITableView
         table.backgroundColor = UIColor.clear
         
         //Filling whole AGPullView with test UITableView
-        self.configurer.fullfillContentView(with: table)
+        self.configurator.fullfillContentView(with: table)
     }
     
     //For correct working of layout in early versions of iOS 10
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        self.configurer.layoutPullView()
+        self.configurator.layoutPullView()
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -54,15 +54,15 @@ class AGViewControllerSwift: UIViewController, AGConfigurerDelegate, UITableView
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        self.configurer.handleTouchesBegan(touches)
+        self.configurator.handleTouchesBegan(touches)
     }
     
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
-        self.configurer.handleTouchesMoved(touches)
+        self.configurator.handleTouchesMoved(touches)
     }
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        self.configurer.handleTouchesEnded(touches)
+        self.configurator.handleTouchesEnded(touches)
     }
     
     func didDrag(_ pullView: AGPullView!, withOpeningPercent openingPercent: Float) {
@@ -90,10 +90,10 @@ class AGViewControllerSwift: UIViewController, AGConfigurerDelegate, UITableView
     
     @IBAction func changeAppearenceToRandom(_ sender: AnyObject) {
         let randomBlur = arc4random_uniform(2)
-        self.configurer.blurStyle = UIBlurEffectStyle(rawValue: Int(randomBlur))!
+        self.configurator.blurStyle = UIBlurEffectStyle(rawValue: Int(randomBlur))!
         
         let randomColorScheme = arc4random_uniform(6)
-        self.configurer.colorSchemeType = PullViewColorSchemeType(rawValue: randomColorScheme)
+        self.configurator.colorSchemeType = PullViewColorSchemeType(rawValue: randomColorScheme)
     }
     
 
