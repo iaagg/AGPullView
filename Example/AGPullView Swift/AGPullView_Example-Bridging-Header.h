@@ -2,6 +2,6 @@
 //  Use this file to import your target's public headers that you would like to expose to Swift.
 //
 
-#import "AGPullViewconfigurator.h"
+#import "AGPullViewConfigurator.h"
 #import "AGPullView.h"
-#import "AGconfiguratorDelegate.h"
+#import "AGConfiguratorDelegate.h"

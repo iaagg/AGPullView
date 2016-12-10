@@ -1,9 +1,9 @@
 use_frameworks!
 
 target 'AGPullView_Example' do
-  pod 'AGPullView', :tag => "0.4.3"
+  pod 'AGPullView'
+end
 
-  target 'AGPullView_Tests' do
-    pod 'AGPullView', :tag => "0.4.3"
-  end
+target 'AGPullView_Tests' do
+  pod 'AGPullView'
 end

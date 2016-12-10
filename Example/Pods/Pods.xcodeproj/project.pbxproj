@@ -7,61 +7,113 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		364E90F0C94E7E5E75EBEBB94E4C7C06 /* Pods-AGPullView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8370DC197AB0CDB50F139EF3B9C716A /* Pods-AGPullView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		385A9EE1B483C400E8D65723DCF76689 /* Pods-AGPullView_Example-AGPullView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10F9ED21C3B4BB3940D3958CE2A06EF3 /* Pods-AGPullView_Example-AGPullView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDA1E239B38BBC60E28A8044ACB1DB53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		F3A480BBD3167F8A4B67F786AC65262D /* Pods-AGPullView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B7E2EAE1ABE3B5A4A490A5C27187B2 /* Pods-AGPullView_Example-dummy.m */; };
-		F53AF0F7288923E3628B7CA1BB813F66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		F663F4D655AFCF7C71183064C0073FF6 /* Pods-AGPullView_Example-AGPullView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9D30170E7B830DF0C1F65FC1E0A811 /* Pods-AGPullView_Example-AGPullView_Tests-dummy.m */; };
+		09F8EB8715B3F4AC5607E112C799D320 /* Pods-AGPullView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63CDF3D81ABB124ADC3C5334CB4FB4CF /* Pods-AGPullView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		104CCBF533083FD686D4B434BAA472A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		1A45C43E0EF99F98FE5D0BAC3A3AE005 /* AGPullViewConfigurer.h in Headers */ = {isa = PBXBuildFile; fileRef = E9E6D52B9EF93EF43BD5D2B56002707B /* AGPullViewConfigurer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F3B85E7D805C72A8321A04734C70C4 /* AGPullViewConfigurer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4962B5939322BA031144E7FF38A0B5D2 /* AGPullViewConfigurer.m */; };
+		30625DFE4AF78C357CCC0875D719B8B3 /* AGPullView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8116F040673A1B5F5990B451B172CCC8 /* AGPullView.m */; };
+		471B63B4121219362D5838D2C26913E0 /* AGPullView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2109D83D0D2C585B3FEFEADE485470BB /* AGPullView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F7BFF6118E1631C1271BF57DAEEEFAC /* AGPullMarginView.h in Headers */ = {isa = PBXBuildFile; fileRef = C2C067D6F138F1B03EEFD189AF23B23D /* AGPullMarginView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5951F47D21F97660FCBD92133BC143B0 /* AGListViewAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACD58761C23D1E5A3B5F7F9DD435850 /* AGListViewAnimationButton.m */; };
+		5D2D79547A780A664F1A1C255BADE4F4 /* AGPullView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 925A6B34F1AA3502151522C8F85B6474 /* AGPullView-dummy.m */; };
+		6543DB1A5256DC6CF012A3FCE66642BB /* AGPullView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EEB5E5295AC60E8DF88ADF76272865B /* AGPullView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71BF14389AD15914003C8BF447AD12A4 /* Pods-AGPullView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3B768CD746703EFC8853DC5BBF707C /* Pods-AGPullView_Example-dummy.m */; };
+		823952F935726B845660F5079DC30199 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		B2DC393DE677423939ADA8363BC4C477 /* AGPullMarginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 363AB216FA1A630EA11DE3F57CB3F3AB /* AGPullMarginView.m */; };
+		C0A3ACB2D33A2F435069163540049247 /* AGListViewAnimationButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D102E00BBCF84C76AEA5FFD8C01884A1 /* AGListViewAnimationButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDC957D65D443BBE4437091852A2CDEA /* AGConfigurerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DD9CCA61A86C8BEFC04796BA3EFA6155 /* AGConfigurerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F713EA35A82ECC54B7C698807C0DEB28 /* AGSettingsEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD23DD02F0022B92592D12C21E98415 /* AGSettingsEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B0BC1CAEFE01263230D37102A9F5FE5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48A89F045630C77BCA29E3FB09DAF185;
+			remoteInfo = AGPullView;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		10F9ED21C3B4BB3940D3958CE2A06EF3 /* Pods-AGPullView_Example-AGPullView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGPullView_Example-AGPullView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1840D24B40310E075E4917FB664F0C3F /* Pods-AGPullView_Example-AGPullView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGPullView_Example-AGPullView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1A9D30170E7B830DF0C1F65FC1E0A811 /* Pods-AGPullView_Example-AGPullView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGPullView_Example-AGPullView_Tests-dummy.m"; sourceTree = "<group>"; };
-		1B29AD1DA350EC1A4DC07AB5622D0F02 /* Pods-AGPullView_Example-AGPullView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGPullView_Example-AGPullView_Tests-resources.sh"; sourceTree = "<group>"; };
-		429476E787BDF5ECE7D63FA687947C3D /* Pods-AGPullView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGPullView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		479AEAD83C4148A2010B6EF41954E21B /* Pods-AGPullView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGPullView_Example-resources.sh"; sourceTree = "<group>"; };
-		483D9560C0F51E8C27B4DC56914387D9 /* Pods_AGPullView_Example_AGPullView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGPullView_Example_AGPullView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DA4CE524C5BC910F114FCADB21FE8A3 /* Pods-AGPullView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGPullView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4FE063F6DF6C7F8638B6F26401718F05 /* Pods-AGPullView_Example-AGPullView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGPullView_Example-AGPullView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		580055086BB5CE877EF9071A468269A1 /* Pods-AGPullView_Example-AGPullView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGPullView_Example-AGPullView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		594F69E08409786F3A184A21D6675C37 /* Pods-AGPullView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGPullView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		86D3C8F75F75BA365EE295EAD00D7B71 /* Pods-AGPullView_Example-AGPullView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AGPullView_Example-AGPullView_Tests.modulemap"; sourceTree = "<group>"; };
+		05932D7DB4AA04196FA576F18673BB15 /* Pods-AGPullView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGPullView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2109D83D0D2C585B3FEFEADE485470BB /* AGPullView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGPullView.h; path = AGPullView/Classes/AGPullView.h; sourceTree = "<group>"; };
+		252386C55630F3E40013549C08B23EDF /* Pods-AGPullView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGPullView_Example-resources.sh"; sourceTree = "<group>"; };
+		363AB216FA1A630EA11DE3F57CB3F3AB /* AGPullMarginView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGPullMarginView.m; path = AGPullView/Classes/AGPullMarginView.m; sourceTree = "<group>"; };
+		41946C30A2C5F560351E0FC408A9D9DE /* Pods-AGPullView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AGPullView_Example.modulemap"; sourceTree = "<group>"; };
+		4962B5939322BA031144E7FF38A0B5D2 /* AGPullViewConfigurer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGPullViewConfigurer.m; path = AGPullView/Classes/AGPullViewConfigurer.m; sourceTree = "<group>"; };
+		4DD23DD02F0022B92592D12C21E98415 /* AGSettingsEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSettingsEnums.h; path = AGPullView/Classes/AGSettingsEnums.h; sourceTree = "<group>"; };
+		4FEED7F76A31CCA9D9F11CA250847206 /* AGPullView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AGPullView.modulemap; sourceTree = "<group>"; };
+		542EB9C55C6DA3631CC60A9F6AC90993 /* Pods-AGPullView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGPullView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		61E5653BEC7E74F70BFAEF59947586D1 /* Pods_AGPullView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGPullView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CDF3D81ABB124ADC3C5334CB4FB4CF /* Pods-AGPullView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGPullView_Example-umbrella.h"; sourceTree = "<group>"; };
+		677459CC25F94FA024CD630EF00A8F41 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8116F040673A1B5F5990B451B172CCC8 /* AGPullView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGPullView.m; path = AGPullView/Classes/AGPullView.m; sourceTree = "<group>"; };
+		8E9868C7292F17DCA848F9119E79ED4A /* AGPullView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGPullView-prefix.pch"; sourceTree = "<group>"; };
+		925A6B34F1AA3502151522C8F85B6474 /* AGPullView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AGPullView-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		940EDB148830712937EA8AAF7479A902 /* Pods-AGPullView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGPullView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AAEAD4EAF3E1C916E91F5E770F43BFBF /* Pods-AGPullView_Example-AGPullView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGPullView_Example-AGPullView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AF73AF680AB9E80358D7816437C5D712 /* Pods-AGPullView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AGPullView_Example.modulemap"; sourceTree = "<group>"; };
-		B8370DC197AB0CDB50F139EF3B9C716A /* Pods-AGPullView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGPullView_Example-umbrella.h"; sourceTree = "<group>"; };
-		C5449D37805C92F32E01F55FC56C3FB9 /* Pods-AGPullView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGPullView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C75251AFAEF2D4CF7CC9FB1E04AC5110 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB1D228DB6A2B72596E7557A45FE31D7 /* Pods_AGPullView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGPullView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ACD58761C23D1E5A3B5F7F9DD435850 /* AGListViewAnimationButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGListViewAnimationButton.m; path = AGPullView/Classes/AGListViewAnimationButton.m; sourceTree = "<group>"; };
+		9C3B768CD746703EFC8853DC5BBF707C /* Pods-AGPullView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGPullView_Example-dummy.m"; sourceTree = "<group>"; };
+		9EEB5E5295AC60E8DF88ADF76272865B /* AGPullView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGPullView-umbrella.h"; sourceTree = "<group>"; };
+		B0C4BB83E74A8BE4F93E2CE329E221DF /* AGPullView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AGPullView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C067D6F138F1B03EEFD189AF23B23D /* AGPullMarginView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGPullMarginView.h; path = AGPullView/Classes/AGPullMarginView.h; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D0B7E2EAE1ABE3B5A4A490A5C27187B2 /* Pods-AGPullView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGPullView_Example-dummy.m"; sourceTree = "<group>"; };
-		DCA63F3C8A1E03E5CA26A9ECCD18BDAC /* Pods-AGPullView_Example-AGPullView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGPullView_Example-AGPullView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F404E43C62F742923191C02A9D20C2A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D102E00BBCF84C76AEA5FFD8C01884A1 /* AGListViewAnimationButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGListViewAnimationButton.h; path = AGPullView/Classes/AGListViewAnimationButton.h; sourceTree = "<group>"; };
+		D404EA78B5BA4679E0C0650FCA634894 /* AGPullView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGPullView.xcconfig; sourceTree = "<group>"; };
+		D6AA8587AA847616C8BB65973115EB1B /* Pods-AGPullView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGPullView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD9CCA61A86C8BEFC04796BA3EFA6155 /* AGConfigurerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGConfigurerDelegate.h; path = AGPullView/Classes/AGConfigurerDelegate.h; sourceTree = "<group>"; };
+		E7391DB2F11846D0B83E55C3CD99DC87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9E6D52B9EF93EF43BD5D2B56002707B /* AGPullViewConfigurer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGPullViewConfigurer.h; path = AGPullView/Classes/AGPullViewConfigurer.h; sourceTree = "<group>"; };
+		F82E79640752B579BAC8223A366AC235 /* Pods-AGPullView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGPullView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FA97373221B4CE7A5A7D4D61761E6CF1 /* Pods-AGPullView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGPullView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		253EDB3F0D6A690659846422E745DE9F /* Frameworks */ = {
+		646CB5B5DECF7C596AD3F338782A70E3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F53AF0F7288923E3628B7CA1BB813F66 /* Foundation.framework in Frameworks */,
+				823952F935726B845660F5079DC30199 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7A2EDDA572190B719A42C42CC45BE31 /* Frameworks */ = {
+		69E7F77C5084F613F9E7646752D4CE7F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDA1E239B38BBC60E28A8044ACB1DB53 /* Foundation.framework in Frameworks */,
+				104CCBF533083FD686D4B434BAA472A0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09847D4C7DA12E737D9B3A70E0FFBAB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D997A18D3E2CD9A1B75AF494BB6F6B5 /* AGPullView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0D997A18D3E2CD9A1B75AF494BB6F6B5 /* AGPullView */ = {
+			isa = PBXGroup;
+			children = (
+				DD9CCA61A86C8BEFC04796BA3EFA6155 /* AGConfigurerDelegate.h */,
+				D102E00BBCF84C76AEA5FFD8C01884A1 /* AGListViewAnimationButton.h */,
+				9ACD58761C23D1E5A3B5F7F9DD435850 /* AGListViewAnimationButton.m */,
+				C2C067D6F138F1B03EEFD189AF23B23D /* AGPullMarginView.h */,
+				363AB216FA1A630EA11DE3F57CB3F3AB /* AGPullMarginView.m */,
+				2109D83D0D2C585B3FEFEADE485470BB /* AGPullView.h */,
+				8116F040673A1B5F5990B451B172CCC8 /* AGPullView.m */,
+				E9E6D52B9EF93EF43BD5D2B56002707B /* AGPullViewConfigurer.h */,
+				4962B5939322BA031144E7FF38A0B5D2 /* AGPullViewConfigurer.m */,
+				4DD23DD02F0022B92592D12C21E98415 /* AGSettingsEnums.h */,
+				CB9CF5901A13B1F25A5C87545D329339 /* Support Files */,
+			);
+			path = AGPullView;
+			sourceTree = "<group>";
+		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -70,22 +122,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5CA0BBEAF3B05AA6638A1875E00A60F6 /* Pods-AGPullView_Example-AGPullView_Tests */ = {
+		51371ECE5F296CE49DBEC87704C2DA4C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C75251AFAEF2D4CF7CC9FB1E04AC5110 /* Info.plist */,
-				86D3C8F75F75BA365EE295EAD00D7B71 /* Pods-AGPullView_Example-AGPullView_Tests.modulemap */,
-				1840D24B40310E075E4917FB664F0C3F /* Pods-AGPullView_Example-AGPullView_Tests-acknowledgements.markdown */,
-				580055086BB5CE877EF9071A468269A1 /* Pods-AGPullView_Example-AGPullView_Tests-acknowledgements.plist */,
-				1A9D30170E7B830DF0C1F65FC1E0A811 /* Pods-AGPullView_Example-AGPullView_Tests-dummy.m */,
-				4FE063F6DF6C7F8638B6F26401718F05 /* Pods-AGPullView_Example-AGPullView_Tests-frameworks.sh */,
-				1B29AD1DA350EC1A4DC07AB5622D0F02 /* Pods-AGPullView_Example-AGPullView_Tests-resources.sh */,
-				10F9ED21C3B4BB3940D3958CE2A06EF3 /* Pods-AGPullView_Example-AGPullView_Tests-umbrella.h */,
-				AAEAD4EAF3E1C916E91F5E770F43BFBF /* Pods-AGPullView_Example-AGPullView_Tests.debug.xcconfig */,
-				DCA63F3C8A1E03E5CA26A9ECCD18BDAC /* Pods-AGPullView_Example-AGPullView_Tests.release.xcconfig */,
+				FF66FF73A8705DEB0FD3129EAC2C340C /* Pods-AGPullView_Example */,
 			);
-			name = "Pods-AGPullView_Example-AGPullView_Tests";
-			path = "Target Support Files/Pods-AGPullView_Example-AGPullView_Tests";
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		75AABFB8B7317EE1F26C4F7D1D26FAC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0C4BB83E74A8BE4F93E2CE329E221DF /* AGPullView.framework */,
+				61E5653BEC7E74F70BFAEF59947586D1 /* Pods_AGPullView_Example.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -93,18 +144,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				CC04487F40D60A8083BE882A7704F15D /* Products */,
-				85F5703BDF52A6A2634BFF5A6EC20ACA /* Targets Support Files */,
+				09847D4C7DA12E737D9B3A70E0FFBAB7 /* Pods */,
+				75AABFB8B7317EE1F26C4F7D1D26FAC6 /* Products */,
+				51371ECE5F296CE49DBEC87704C2DA4C /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		85F5703BDF52A6A2634BFF5A6EC20ACA /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BEA71A9354AD8B5D821F9618DB78803C /* Pods-AGPullView_Example */,
-				5CA0BBEAF3B05AA6638A1875E00A60F6 /* Pods-AGPullView_Example-AGPullView_Tests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -115,87 +158,99 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BEA71A9354AD8B5D821F9618DB78803C /* Pods-AGPullView_Example */ = {
+		CB9CF5901A13B1F25A5C87545D329339 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F404E43C62F742923191C02A9D20C2A9 /* Info.plist */,
-				AF73AF680AB9E80358D7816437C5D712 /* Pods-AGPullView_Example.modulemap */,
-				594F69E08409786F3A184A21D6675C37 /* Pods-AGPullView_Example-acknowledgements.markdown */,
-				940EDB148830712937EA8AAF7479A902 /* Pods-AGPullView_Example-acknowledgements.plist */,
-				D0B7E2EAE1ABE3B5A4A490A5C27187B2 /* Pods-AGPullView_Example-dummy.m */,
-				429476E787BDF5ECE7D63FA687947C3D /* Pods-AGPullView_Example-frameworks.sh */,
-				479AEAD83C4148A2010B6EF41954E21B /* Pods-AGPullView_Example-resources.sh */,
-				B8370DC197AB0CDB50F139EF3B9C716A /* Pods-AGPullView_Example-umbrella.h */,
-				C5449D37805C92F32E01F55FC56C3FB9 /* Pods-AGPullView_Example.debug.xcconfig */,
-				4DA4CE524C5BC910F114FCADB21FE8A3 /* Pods-AGPullView_Example.release.xcconfig */,
+				4FEED7F76A31CCA9D9F11CA250847206 /* AGPullView.modulemap */,
+				D404EA78B5BA4679E0C0650FCA634894 /* AGPullView.xcconfig */,
+				925A6B34F1AA3502151522C8F85B6474 /* AGPullView-dummy.m */,
+				8E9868C7292F17DCA848F9119E79ED4A /* AGPullView-prefix.pch */,
+				9EEB5E5295AC60E8DF88ADF76272865B /* AGPullView-umbrella.h */,
+				E7391DB2F11846D0B83E55C3CD99DC87 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AGPullView";
+			sourceTree = "<group>";
+		};
+		FF66FF73A8705DEB0FD3129EAC2C340C /* Pods-AGPullView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				677459CC25F94FA024CD630EF00A8F41 /* Info.plist */,
+				41946C30A2C5F560351E0FC408A9D9DE /* Pods-AGPullView_Example.modulemap */,
+				05932D7DB4AA04196FA576F18673BB15 /* Pods-AGPullView_Example-acknowledgements.markdown */,
+				D6AA8587AA847616C8BB65973115EB1B /* Pods-AGPullView_Example-acknowledgements.plist */,
+				9C3B768CD746703EFC8853DC5BBF707C /* Pods-AGPullView_Example-dummy.m */,
+				542EB9C55C6DA3631CC60A9F6AC90993 /* Pods-AGPullView_Example-frameworks.sh */,
+				252386C55630F3E40013549C08B23EDF /* Pods-AGPullView_Example-resources.sh */,
+				63CDF3D81ABB124ADC3C5334CB4FB4CF /* Pods-AGPullView_Example-umbrella.h */,
+				F82E79640752B579BAC8223A366AC235 /* Pods-AGPullView_Example.debug.xcconfig */,
+				FA97373221B4CE7A5A7D4D61761E6CF1 /* Pods-AGPullView_Example.release.xcconfig */,
 			);
 			name = "Pods-AGPullView_Example";
 			path = "Target Support Files/Pods-AGPullView_Example";
 			sourceTree = "<group>";
 		};
-		CC04487F40D60A8083BE882A7704F15D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CB1D228DB6A2B72596E7557A45FE31D7 /* Pods_AGPullView_Example.framework */,
-				483D9560C0F51E8C27B4DC56914387D9 /* Pods_AGPullView_Example_AGPullView_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		BE6E1C4C884C2C386C5B9D5B63C0FEAD /* Headers */ = {
+		54E0657C16B86F010FE3717A9EAFFDC8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				385A9EE1B483C400E8D65723DCF76689 /* Pods-AGPullView_Example-AGPullView_Tests-umbrella.h in Headers */,
+				EDC957D65D443BBE4437091852A2CDEA /* AGConfigurerDelegate.h in Headers */,
+				C0A3ACB2D33A2F435069163540049247 /* AGListViewAnimationButton.h in Headers */,
+				4F7BFF6118E1631C1271BF57DAEEEFAC /* AGPullMarginView.h in Headers */,
+				6543DB1A5256DC6CF012A3FCE66642BB /* AGPullView-umbrella.h in Headers */,
+				471B63B4121219362D5838D2C26913E0 /* AGPullView.h in Headers */,
+				1A45C43E0EF99F98FE5D0BAC3A3AE005 /* AGPullViewConfigurer.h in Headers */,
+				F713EA35A82ECC54B7C698807C0DEB28 /* AGSettingsEnums.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5F800803369668C7A616ADD10CE71C3 /* Headers */ = {
+		E60A9873467AC2A175FCDC466059B9A5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				364E90F0C94E7E5E75EBEBB94E4C7C06 /* Pods-AGPullView_Example-umbrella.h in Headers */,
+				09F8EB8715B3F4AC5607E112C799D320 /* Pods-AGPullView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C732770DD28BF4E8593671FF66F9D56F /* Pods-AGPullView_Example */ = {
+		48A89F045630C77BCA29E3FB09DAF185 /* AGPullView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83F81F405DC6EA3EA36B2F6CD274CDBF /* Build configuration list for PBXNativeTarget "Pods-AGPullView_Example" */;
+			buildConfigurationList = 896FAE7806D9DA00F43E0A7E1412A0ED /* Build configuration list for PBXNativeTarget "AGPullView" */;
 			buildPhases = (
-				E03CFD1A5B46ECFBDA4E122B105510E3 /* Sources */,
-				253EDB3F0D6A690659846422E745DE9F /* Frameworks */,
-				C5F800803369668C7A616ADD10CE71C3 /* Headers */,
+				E54F5DA884472ACB3EDFAA75A8858F30 /* Sources */,
+				646CB5B5DECF7C596AD3F338782A70E3 /* Frameworks */,
+				54E0657C16B86F010FE3717A9EAFFDC8 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = AGPullView;
+			productName = AGPullView;
+			productReference = B0C4BB83E74A8BE4F93E2CE329E221DF /* AGPullView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9BAE90AEB0E92ECF7B5AB1EB7051EB46 /* Pods-AGPullView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1474E331757339D132D52C5BEE9E97A7 /* Build configuration list for PBXNativeTarget "Pods-AGPullView_Example" */;
+			buildPhases = (
+				3FBAAEA7CC7F74FBC7C53749A9822D29 /* Sources */,
+				69E7F77C5084F613F9E7646752D4CE7F /* Frameworks */,
+				E60A9873467AC2A175FCDC466059B9A5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5916BD61BBA03457AC31D8E44983A0A /* PBXTargetDependency */,
 			);
 			name = "Pods-AGPullView_Example";
 			productName = "Pods-AGPullView_Example";
-			productReference = CB1D228DB6A2B72596E7557A45FE31D7 /* Pods_AGPullView_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F6ECF2C85A4A03AB46E44F45E46F1665 /* Pods-AGPullView_Example-AGPullView_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52AFF064CB693A6D293F33F341D0337C /* Build configuration list for PBXNativeTarget "Pods-AGPullView_Example-AGPullView_Tests" */;
-			buildPhases = (
-				6FA3261E3275A0A2ADDA2CDDAD901213 /* Sources */,
-				D7A2EDDA572190B719A42C42CC45BE31 /* Frameworks */,
-				BE6E1C4C884C2C386C5B9D5B63C0FEAD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-AGPullView_Example-AGPullView_Tests";
-			productName = "Pods-AGPullView_Example-AGPullView_Tests";
-			productReference = 483D9560C0F51E8C27B4DC56914387D9 /* Pods_AGPullView_Example_AGPullView_Tests.framework */;
+			productReference = 61E5653BEC7E74F70BFAEF59947586D1 /* Pods_AGPullView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -215,34 +270,47 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CC04487F40D60A8083BE882A7704F15D /* Products */;
+			productRefGroup = 75AABFB8B7317EE1F26C4F7D1D26FAC6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C732770DD28BF4E8593671FF66F9D56F /* Pods-AGPullView_Example */,
-				F6ECF2C85A4A03AB46E44F45E46F1665 /* Pods-AGPullView_Example-AGPullView_Tests */,
+				48A89F045630C77BCA29E3FB09DAF185 /* AGPullView */,
+				9BAE90AEB0E92ECF7B5AB1EB7051EB46 /* Pods-AGPullView_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6FA3261E3275A0A2ADDA2CDDAD901213 /* Sources */ = {
+		3FBAAEA7CC7F74FBC7C53749A9822D29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F663F4D655AFCF7C71183064C0073FF6 /* Pods-AGPullView_Example-AGPullView_Tests-dummy.m in Sources */,
+				71BF14389AD15914003C8BF447AD12A4 /* Pods-AGPullView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E03CFD1A5B46ECFBDA4E122B105510E3 /* Sources */ = {
+		E54F5DA884472ACB3EDFAA75A8858F30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3A480BBD3167F8A4B67F786AC65262D /* Pods-AGPullView_Example-dummy.m in Sources */,
+				5951F47D21F97660FCBD92133BC143B0 /* AGListViewAnimationButton.m in Sources */,
+				B2DC393DE677423939ADA8363BC4C477 /* AGPullMarginView.m in Sources */,
+				5D2D79547A780A664F1A1C255BADE4F4 /* AGPullView-dummy.m in Sources */,
+				30625DFE4AF78C357CCC0875D719B8B3 /* AGPullView.m in Sources */,
+				21F3B85E7D805C72A8321A04734C70C4 /* AGPullViewConfigurer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5916BD61BBA03457AC31D8E44983A0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AGPullView;
+			target = 48A89F045630C77BCA29E3FB09DAF185 /* AGPullView */;
+			targetProxy = B0BC1CAEFE01263230D37102A9F5FE5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
@@ -289,9 +357,9 @@
 			};
 			name = Debug;
 		};
-		17F9CBDE043D8C03DA8FFBBE3223A479 /* Release */ = {
+		0A1889E2202E14071642D4C33877DCAB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCA63F3C8A1E03E5CA26A9ECCD18BDAC /* Pods-AGPullView_Example-AGPullView_Tests.release.xcconfig */;
+			baseConfigurationReference = FA97373221B4CE7A5A7D4D61761E6CF1 /* Pods-AGPullView_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -304,18 +372,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AGPullView_Example-AGPullView_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AGPullView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AGPullView_Example-AGPullView_Tests/Pods-AGPullView_Example-AGPullView_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-AGPullView_Example/Pods-AGPullView_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AGPullView_Example_AGPullView_Tests;
+				PRODUCT_NAME = Pods_AGPullView_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,41 +391,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		1EB4B01C7EC0F6B99652EAC82DD1ADA7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAEAD4EAF3E1C916E91F5E770F43BFBF /* Pods-AGPullView_Example-AGPullView_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AGPullView_Example-AGPullView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AGPullView_Example-AGPullView_Tests/Pods-AGPullView_Example-AGPullView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AGPullView_Example_AGPullView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -399,44 +432,9 @@
 			};
 			name = Release;
 		};
-		5D59CCD97EC096D44F2A8F5EEE71C400 /* Release */ = {
+		48B390A961C9625E2B06BD17F3FB4F2A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DA4CE524C5BC910F114FCADB21FE8A3 /* Pods-AGPullView_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AGPullView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AGPullView_Example/Pods-AGPullView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AGPullView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		762265688AD5434344271A5D47F190ED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5449D37805C92F32E01F55FC56C3FB9 /* Pods-AGPullView_Example.debug.xcconfig */;
+			baseConfigurationReference = F82E79640752B579BAC8223A366AC235 /* Pods-AGPullView_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -469,9 +467,82 @@
 			};
 			name = Debug;
 		};
+		6BD8865090CC10055835EF4BE840FF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D404EA78B5BA4679E0C0650FCA634894 /* AGPullView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AGPullView/AGPullView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AGPullView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AGPullView/AGPullView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AGPullView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9DAEF3A8E7F212585632F0E1B4AB5DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D404EA78B5BA4679E0C0650FCA634894 /* AGPullView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AGPullView/AGPullView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AGPullView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AGPullView/AGPullView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AGPullView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1474E331757339D132D52C5BEE9E97A7 /* Build configuration list for PBXNativeTarget "Pods-AGPullView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B390A961C9625E2B06BD17F3FB4F2A /* Debug */,
+				0A1889E2202E14071642D4C33877DCAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -481,20 +552,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52AFF064CB693A6D293F33F341D0337C /* Build configuration list for PBXNativeTarget "Pods-AGPullView_Example-AGPullView_Tests" */ = {
+		896FAE7806D9DA00F43E0A7E1412A0ED /* Build configuration list for PBXNativeTarget "AGPullView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1EB4B01C7EC0F6B99652EAC82DD1ADA7 /* Debug */,
-				17F9CBDE043D8C03DA8FFBBE3223A479 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		83F81F405DC6EA3EA36B2F6CD274CDBF /* Build configuration list for PBXNativeTarget "Pods-AGPullView_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				762265688AD5434344271A5D47F190ED /* Debug */,
-				5D59CCD97EC096D44F2A8F5EEE71C400 /* Release */,
+				6BD8865090CC10055835EF4BE840FF04 /* Debug */,
+				9DAEF3A8E7F212585632F0E1B4AB5DFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
