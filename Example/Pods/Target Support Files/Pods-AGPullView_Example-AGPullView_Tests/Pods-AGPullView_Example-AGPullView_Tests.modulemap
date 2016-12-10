@@ -1,6 +1,0 @@
-framework module Pods_AGPullView_Example_AGPullView_Tests {
-  umbrella header "Pods-AGPullView_Example-AGPullView_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

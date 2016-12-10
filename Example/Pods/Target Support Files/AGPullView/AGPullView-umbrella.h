@@ -1,10 +1,10 @@
 #import <UIKit/UIKit.h>
 
-#import "AGConfigurerDelegate.h"
+#import "AGConfiguratorDelegate.h"
 #import "AGListViewAnimationButton.h"
 #import "AGPullMarginView.h"
 #import "AGPullView.h"
-#import "AGPullViewConfigurer.h"
+#import "AGPullViewConfigurator.h"
 #import "AGSettingsEnums.h"
 
 FOUNDATION_EXPORT double AGPullViewVersionNumber;

@@ -3,11 +3,11 @@
 //  Copyright © 2016 Alexey Getman. All rights reserved.
 //
 
-#ifndef AGConfigurerDelegate_h
-#define AGConfigurerDelegate_h
+#ifndef AGConfiguratorDelegate_h
+#define AGConfiguratorDelegate_h
 @class AGPullView;
 
-@protocol AGConfigurerDelegate <NSObject>
+@protocol AGConfiguratorDelegate <NSObject>
 
 @optional
 
@@ -48,5 +48,5 @@
 - (void)didTouchToHidePullView:(AGPullView *)pullView;
 @end
 
-#endif /* AGConfigurerDelegate_h */
+#endif /* AGConfiguratorDelegate_h */
 

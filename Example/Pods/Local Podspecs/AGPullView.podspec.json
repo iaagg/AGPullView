@@ -1,6 +1,6 @@
 {
   "name": "AGPullView",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "summary": "Container view for pulling it from bottom of its superview.",
   "description": "This view could be container for any of yur content. I look forward to you suggestions and ideas for full customization.",
   "homepage": "https://github.com/iaagg/AGPullView",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/iaagg/AGPullView.git",
-    "tag": "0.4.2"
+    "tag": "0.4.3"
   },
   "platforms": {
     "ios": "8.0"
