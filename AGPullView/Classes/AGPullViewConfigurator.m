@@ -484,7 +484,10 @@ static NSString *const AGDirectInitExeptionMessage = @"You shold use \"configura
 
 //Opens self with animation
 - (void)showAnimated:(BOOL)animated {
-    
+    [self p_showAnimated:animated completionAction:nil];
+}
+
+- (void)p_showAnimated:(BOOL)animated completionAction:(void(^)(void))completionAction {
     if (animated) {
         float bounce = self.needBounceEff ? 0.7 : 1.;
         
@@ -513,12 +516,29 @@ static NSString *const AGDirectInitExeptionMessage = @"You shold use \"configura
                              
                              [self p_switchButtons];
                              
+                             if (completionAction) {
+                                 completionAction();
+                             }
+                             
                          }];
     } else {
         [self p_setupToShownState];
     }
 }
 
+- (void)showAnimated:(BOOL)animated forPercent:(NSInteger)percent {
+    NSNumber *savedPrecent = [self.percentOfFilling copy];
+    percent = percent > 0 ? percent : 0;
+    percent = percent < 100 ? percent : 100;
+    CGFloat multiplier = percent / 100.;
+    NSNumber *tmpPercent = @([self.percentOfFilling floatValue] * multiplier);
+    self.percentOfFilling = tmpPercent;
+    __weak typeof(self) welf = self;
+    
+    [self p_showAnimated:animated completionAction:^{
+        welf.percentOfFilling = savedPrecent;
+    }];
+}
 - (void)p_switchButtons {
     if (self.viewState == HIDDEN) {
         upperButton.hidden = true;

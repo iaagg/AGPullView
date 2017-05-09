@@ -79,7 +79,7 @@
 /*!
  * @brief Call to add pull view to your view as subview
  * @param superview An UIView to which you want to add pull view as subview
- * @param pullMarginType One of several presets of drag margin appearences
+ * @param scheme One of several presets of drag margin appearences
  * @warning Your view's height should be at least 100pt
  */
 - (void)setupPullViewForSuperview:(UIView *)superview colorScheme:(PullViewColorSchemeType)scheme;
@@ -132,6 +132,13 @@
  * @param animated Choose if showing should be animated or not
  */
 - (void)showAnimated:(BOOL)animated;
+
+/*!
+ * @brief Call to show some part of pull view
+ * @param animated Choose if showing should be animated or not
+ * @param percent Percent of pull view which should be shown (from 0 to 100)
+ */
+- (void)showAnimated:(BOOL)animated forPercent:(NSInteger)percent;
 
 /*!
  * @brief Call for calling layoutIfNeeded to AGPullView

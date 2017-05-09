@@ -1,12 +1,16 @@
 PODS:
-  - AGPullView (0.4.4)
+  - AGPullView (0.5.0)
 
 DEPENDENCIES:
-  - AGPullView (= 0.4.4)
+  - AGPullView (from `../`)
+
+EXTERNAL SOURCES:
+  AGPullView:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  AGPullView: 986776637e94d4d8c63df76d0033f045196f3d46
+  AGPullView: f72406c05fb078abae509a5578635f5286fbf738
 
-PODFILE CHECKSUM: a8ef1cb5a5fd1cf94fe17fec13dc76dd7e5f7e9f
+PODFILE CHECKSUM: ea7c694f4e66d565b95c16ce60d1155c416465cb
 
-COCOAPODS: 1.1.0.rc.2
+COCOAPODS: 1.2.1

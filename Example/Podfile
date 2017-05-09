@@ -1,9 +1,9 @@
 use_frameworks!
 
 target 'AGPullView_Example' do
-  pod 'AGPullView', '0.4.4'
+    pod 'AGPullView', :path => '../'
 end
 
 target 'AGPullView_Tests' do
-  pod 'AGPullView', '0.4.4'
+  pod 'AGPullView', :path => '../'
 end

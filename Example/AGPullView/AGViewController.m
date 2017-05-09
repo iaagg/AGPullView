@@ -24,7 +24,7 @@
     //AGPullView configuration
     self.configurator = [AGPullViewConfigurator new];
     [self.configurator setupPullViewForSuperview:self.view colorScheme:ColorSchemeTypeGrayTransparent];
-    self.configurator.percentOfFilling = @85;
+    self.configurator.percentOfFilling = @100;
     self.configurator.delegate = self;
     self.configurator.needBounceEffect = true;
     self.configurator.animationDuration = @0.3;
@@ -46,6 +46,22 @@
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
     [self.configurator layoutPullView];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.configurator showAnimated:YES forPercent:30];
+    });
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(4 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.configurator showAnimated:YES forPercent:50];
+    });
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(6 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.configurator showAnimated:YES forPercent:100];
+    });
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
