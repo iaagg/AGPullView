@@ -1,6 +1,5 @@
 # AGPullView
 
-[![CI Status](http://img.shields.io/travis/Aleksey Getman/AGPullView.svg?style=flat)](https://travis-ci.org/Aleksey Getman/AGPullView)
 [![Version](https://img.shields.io/cocoapods/v/AGPullView.svg?style=flat)](http://cocoapods.org/pods/AGPullView)
 [![License](https://img.shields.io/cocoapods/l/AGPullView.svg?style=flat)](http://cocoapods.org/pods/AGPullView)
 [![Platform](https://img.shields.io/cocoapods/p/AGPullView.svg?style=flat)](http://cocoapods.org/pods/AGPullView)
@@ -22,14 +21,18 @@ it, simply add the following line to your Podfile:
 pod "AGPullView"
 ```
 
-#Demo
+# Demo
 
 Short demo of AGPullView performance.
 
 
 ![Demo](https://s32.postimg.org/vgslyjjed/AGPull_View_demo.gif)
 
-#Usage
+
+----------
+
+
+# Usage
 
 First, import AGPullViewConfigurator
 For SWIFT - you should import AGPullViewConfigurator in bridging header first to use AGPullView
@@ -38,7 +41,11 @@ For SWIFT - you should import AGPullViewConfigurator in bridging header first to
 import "AGPullViewConfigurator.h"
 ```
 
-##Initialization
+
+----------
+
+
+### Initialization
 
 Just use standart initialization
 
@@ -51,6 +58,11 @@ self.configurator = [AGPullViewConfigurator new];
 let configurator = AGPullViewConfigurator()
 ```
 
+
+----------
+
+
+### Setting up
 Then setup AGPullView for your view like so (white preset color scheme - default):
 
 *Objective-C*
@@ -78,41 +90,50 @@ Then you also should override several your superview's UIResponder methods with 
 *Objective-C*
 ```ObjC
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [self.configurator handleTouchesBegan:touches];
+[self.configurator handleTouchesBegan:touches];
 }
 
 - (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [self.configurator handleTouchesMoved:touches];
+[self.configurator handleTouchesMoved:touches];
 }
 
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [self.configurator handleTouchesEnded:touches];
+[self.configurator handleTouchesEnded:touches];
 }
 ```
 *SWIFT*
 ```Swift
 override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-    self.configurator.handleTouchesBegan(touches)
+self.configurator.handleTouchesBegan(touches)
 }
 
 override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
-    self.configurator.handleTouchesMoved(touches)
+self.configurator.handleTouchesMoved(touches)
 }
 
 override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-    self.configurator.handleTouchesEnded(touches)
+self.configurator.handleTouchesEnded(touches)
 }
 ```
 
 Great! Now your AGPullView is ready for using!
 
-##Settings
+
+----------
+
+
+### Delegation
 
 Use AGconfiguratorDelegate methods for full control
 ```ObjC
 self.configurator.delegate
 ```
 
+
+----------
+
+
+### Customization
 You can fill AGPullView with your content by accessing property contentView like so:
 ```ObjC
 self.configurator.contentView
@@ -131,21 +152,23 @@ self.configurator.fullfillContentView(with: table)
 
 You can turn on/off blur effect like so: 
 
-ON
+1) *ON*
 
 *Objective-C*
 ```ObjC
 [self.configurator enableBlurEffectWithBlurStyle:UIBlurEffectStyleLight];
 ```
+*SWIFT*
 ```Swift
 self.configurator.enableBlurEffect(withBlurStyle: .dark)
 ```
-OFF
+2) *OFF*
 
 *Objective-C*
 ```ObjC
 [self.configurator undoBlurEffect];
 ```
+*SWIFT*
 ```Swift
 self.configurator.undoBlurEffect()
 ```
@@ -160,12 +183,13 @@ self.configurator.enableHidingWithTouch = YES;
 [self.configurator hideAnimated:YES];
 [self.configurator showAnimated:YES];
 ```
+*SWIFT*
 ```Swift
-self.configurator.enableShowingWithTouch = YES;
-self.configurator.enableHidingWithTouch = YES;
+self.configurator.enableShowingWithTouch = true;
+self.configurator.enableHidingWithTouch = true;
 
-self.configurator.hide(animated: YES)
-self.configurator.hide(animated: YES)
+self.configurator.hide(animated: true)
+self.configurator.hide(animated: true)
 ```
 
 There is batch of useful settings for your AGPullView instance:
@@ -188,7 +212,13 @@ self.configurator.enableHidingWithTouch
 self.configurator.blurStyle
 self.configurator.colorSchemeType
 ```
+
+
+----------
+
+
 And here is a demo of random changing properties 'blurStyle' and 'colorSchemeType'
+
 ![Demo](https://media.giphy.com/media/2AmsmlYktMzFS/giphy.gif)
 
 ## Author
