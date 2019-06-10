@@ -490,37 +490,39 @@ static NSString *const AGDirectInitExeptionMessage = @"You shold use \"configura
 - (void)p_showAnimated:(BOOL)animated completionAction:(void(^)(void))completionAction {
     if (animated) {
         float bounce = self.needBounceEff ? 0.7 : 1.;
-        
-        [UIView animateWithDuration:self.animDuration
-                              delay:0.
-             usingSpringWithDamping:bounce
-              initialSpringVelocity:0
-                            options:UIViewAnimationOptionCurveEaseOut
-                         animations:^{
-                             
-                             self.heightConst.priority = 250.; //Low while opened
-                             self.heightConst.constant = self.openedConst;
-                             
-                             self.toTopConst.priority = 750.; //High while opened
-                             self.toTopConst.constant = MINIMUM_ORIGIN_Y;
-                             
-                             [self.superview layoutIfNeeded];
-                             
-                         } completion:^(BOOL finished) {
-                             
-                             self.viewState = SHOWN;
-                             
-                             if ([self.delegate respondsToSelector:@selector(didShowPullView:)]) {
-                                 [self.delegate didShowPullView:self.pullView];
-                             }
-                             
-                             [self p_switchButtons];
-                             
-                             if (completionAction) {
-                                 completionAction();
-                             }
-                             
-                         }];
+
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [UIView animateWithDuration:self.animDuration
+                                  delay:0.
+                 usingSpringWithDamping:bounce
+                  initialSpringVelocity:0
+                                options:UIViewAnimationOptionCurveEaseOut
+                             animations:^{
+
+                                 self.heightConst.priority = 250.; //Low while opened
+                                 self.heightConst.constant = self.openedConst;
+
+                                 self.toTopConst.priority = 750.; //High while opened
+                                 self.toTopConst.constant = MINIMUM_ORIGIN_Y;
+
+                                 [self.superview layoutIfNeeded];
+
+                             } completion:^(BOOL finished) {
+
+                                 self.viewState = SHOWN;
+
+                                 if ([self.delegate respondsToSelector:@selector(didShowPullView:)]) {
+                                     [self.delegate didShowPullView:self.pullView];
+                                 }
+
+                                 [self p_switchButtons];
+
+                                 if (completionAction) {
+                                     completionAction();
+                                 }
+
+                             }];
+        });
     } else {
         [self p_setupToShownState];
     }
